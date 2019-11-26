@@ -1,0 +1,7 @@
+.list__item_border_top {
+  border-bottom: 1px solid var(--background-default);
+}
+
+.list__item_border_top:last-child {
+  border: none;
+}

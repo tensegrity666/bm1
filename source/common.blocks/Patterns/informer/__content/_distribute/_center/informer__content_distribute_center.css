@@ -1,0 +1,5 @@
+.informer__content_distribute_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

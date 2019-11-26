@@ -1,0 +1,5 @@
+.informer__action_distribute_default {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
