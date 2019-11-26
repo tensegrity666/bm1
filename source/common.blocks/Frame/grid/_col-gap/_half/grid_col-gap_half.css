@@ -1,0 +1,3 @@
+.grid_col-gap_half {
+  margin: 0 calc(var(--gap) / 2);
+}
