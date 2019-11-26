@@ -1,4 +1,4 @@
-.theme_space_default {
+:root {
   --space-xxxs: 2px;
   --space-xxs: 4px;
   --space-xs: 8px;
@@ -10,4 +10,8 @@
   --space-xxxl: 40px;
   --space-xxxxl: 48px;
   --space-xxxxxl: 72px;
+}
+
+.theme_space_default {
+  
 }
