@@ -3,13 +3,20 @@
 const { src, dest, watch } = require("gulp");
 const stylelint = require("gulp-stylelint");
 const browserSync = require("browser-sync").create();
+const gulpConcat = require("gulp-concat-css");
 const reload = browserSync.reload;
 
 function lint() {
   return src("source/**/*.css")
     .pipe(stylelint({
       reporters: [{ formatter: 'string', console: true }]
-    }))
+    }));
+};
+
+function concat() {
+  return src("source/common.blocks/**/*.css")
+    .pipe(gulpConcat("main.css"))
+    .pipe(dest("build/"));
 };
 
 function server() {
@@ -25,4 +32,5 @@ function server() {
 };
 
 exports.lint = lint;
+exports.concat = concat;
 exports.server = server;
