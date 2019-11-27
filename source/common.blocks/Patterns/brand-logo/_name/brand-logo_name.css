@@ -1,0 +1,22 @@
+:root {
+  --blue: #5dcdf9;
+  --green: #23b324;
+  --red: #ff3333;
+  --purple: #c62cff;
+}
+
+.brand-logo_name_blue {
+  background-color: var(--blue);
+}
+
+.brand-logo_name_green {
+  background-color: var(--green);
+}
+
+.brand-logo_name_red {
+  background-color: var(--red);
+}
+
+.brand-logo_name_purple {
+  background-color: var(--purple);
+}

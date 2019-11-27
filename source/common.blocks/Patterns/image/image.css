@@ -1,0 +1,5 @@
+.image {
+  width: 100%;
+  background-color: var(--text-default);
+  border: 3px solid var(--border-color);
+}

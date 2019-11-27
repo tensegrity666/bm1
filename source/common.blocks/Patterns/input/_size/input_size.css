@@ -1,0 +1,29 @@
+.input_size_s {
+  width: 100%;
+  height: 24px;
+  background-color: var(--background-accent);
+}
+
+.input_size_m {
+  width: 100%;
+  height: 32px;
+  background-color: var(--background-accent);
+}
+
+.input_size_l {
+  width: 100%;
+  height: 42px;
+  background-color: var(--background-accent);
+}
+
+.input_size_xl {
+  width: 100%;
+  height: 56px;
+  background-color: var(--background-accent);
+}
+
+.input_size_xxl {
+  width: 100%;
+  height: 64px;
+  background-color: var(--background-accent);
+}

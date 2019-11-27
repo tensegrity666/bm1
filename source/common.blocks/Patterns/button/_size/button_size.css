@@ -1,0 +1,33 @@
+:root {
+  --button-size-w: 200px;
+}
+
+.button_size_s {
+  width: var(--button-size-w);
+  height: 24px;
+  background-color: var(--background-accent);
+}
+
+.button_size_m {
+  width: var(--button-size-w);
+  height: 32px;
+  background-color: var(--background-accent);
+}
+
+.button_size_l {
+  width: var(--button-size-w);
+  height: 42px;
+  background-color: var(--background-accent);
+}
+
+.button_size_xl {
+  width: var(--button-size-w);
+  height: 56px;
+  background-color: var(--background-accent);
+}
+
+.button_size_xxl {
+  width: var(--button-size-w);
+  height: 64px;
+  background-color: var(--background-accent);
+}
