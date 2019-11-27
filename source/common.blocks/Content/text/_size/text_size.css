@@ -1,0 +1,24 @@
+.text_size_s {
+  height: var(--font-size-s);
+  --word-height-s: 7px;
+}
+
+.text_size_m {
+  height: var(--font-size-m);
+  --word-height-m: 8px;
+}
+
+.text_size_l {
+  height: var(--font-size-l);
+  --word-height-l: 10px;
+}
+
+.text_size_xl {
+  height: var(--font-size-xl);
+  --word-height-xl: 11px;
+}
+
+.text_size_xxl {
+  height: var(--font-size-xxl);
+  --word-height-xxl: 13px;
+}

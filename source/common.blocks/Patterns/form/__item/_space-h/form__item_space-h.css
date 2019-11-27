@@ -1,0 +1,36 @@
+.form__item_space-h_xxxs {
+  padding: 0 var(--space-xxxs);
+}
+
+.form__item_space-h_xxs {
+  padding: 0 var(--space-xxs);
+}
+
+.form__item_space-h_s {
+  padding: 0 var(--space-s);
+}
+
+.form__item_space-h_m {
+  padding: 0 var(--space-m);
+}
+
+.form__item_space-h_l {
+  padding: 0 var(--space-l);
+}
+
+.form__item_space-h_xl {
+  padding: 0 var(--space-xl);
+}
+
+.form__item_space-h_xxl {
+  padding: 0 var(--space-xxl);
+}
+
+.form__item_space-h_xxxl {
+  padding: 0 var(--space-xxxl);
+}
+
+.form__item_space-h_xxxxl {
+  padding: 0 var(--space-xxxxl);
+}
+

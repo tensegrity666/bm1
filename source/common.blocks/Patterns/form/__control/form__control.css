@@ -1,0 +1,4 @@
+.form__control {
+  display: flex;
+  flex-direction: column;
+}

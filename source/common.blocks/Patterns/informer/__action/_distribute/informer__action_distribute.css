@@ -1,0 +1,11 @@
+.informer__action_distribute_default {
+  justify-content: flex-start;
+}
+
+.informer__action_distribute_between {
+  justify-content: space-between;
+}
+
+.informer__action_distribute_center {
+  justify-content: center;
+}
