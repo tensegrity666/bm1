@@ -1,0 +1,16 @@
+.text_view_ghost {
+  color: var(--text-ghost);
+}
+
+.text_view_link {
+  color: var(--text-link);
+}
+
+.text_view_primary {
+  color: var(--text-primary);
+}
+
+.text_view_secondary {
+  color: var(--text-secondary);
+}
+
