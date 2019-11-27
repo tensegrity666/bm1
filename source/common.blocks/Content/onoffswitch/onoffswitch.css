@@ -1,0 +1,17 @@
+.onoffswitch {
+  display: block;
+  position: relative;
+  width: 90px;
+  height: 30px;
+  border: 2px solid black;
+}
+
+.onoffswitch::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 26px;
+  height: 26px;
+  background-color: black;
+}
