@@ -1,3 +1,4 @@
 .text__word {
-  display: inline-block;
+  align-content: flex-start;
+  background-color: var(--text-default);
 }

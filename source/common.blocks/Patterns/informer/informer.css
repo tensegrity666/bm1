@@ -1,8 +1,6 @@
-
-.informer__content {
+.informer {
   display: flex;
   flex-direction: column;
-  min-height: 390px;
   align-items: center;
   justify-content: space-around;
 }

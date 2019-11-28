@@ -3,7 +3,8 @@
 }
 
 .informer__content_distribute_center {
-  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .informer__content_distribute_between {

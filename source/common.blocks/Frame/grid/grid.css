@@ -1,3 +1,4 @@
 .grid {
   --screen-m: var(--breakpoint);
+  display: flex;
 }
