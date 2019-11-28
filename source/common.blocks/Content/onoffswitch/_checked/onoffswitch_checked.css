@@ -3,7 +3,7 @@
   position: relative;
   width: 90px;
   height: 30px;
-  border: 2px solid black;
+  border: 2px solid var(--text-default);
 }
 
 .onoffswitch_checked::before {
@@ -13,5 +13,5 @@
   right: 2px;
   width: 26px;
   height: 26px;
-  background-color: black;
+  background-color: var(--text-default);
 }
