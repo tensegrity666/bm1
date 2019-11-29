@@ -15,13 +15,6 @@
   }
 }
 
-.theme {
-  background-color: var(--background-default);
-  color: var(--text-default);
-  border-color: var(--border-color);
-
-  --breakpoint: 1144px;
-}
 
 .theme_color_project-default {
   --background-default: #ffffff;
@@ -142,8 +135,6 @@
   width: 26px;
   height: 26px;
   background-color: var(--text-default);
-  transition-property: left;
-  transition-duration: 2s;
 }
 
 .onoffswitch_checked .onoffswitch__button {
@@ -153,8 +144,6 @@
   width: 26px;
   height: 26px;
   background-color: var(--text-default);
-  transition-property: left;
-  transition-duration: 2s;
 }
 
 .footer {
@@ -172,10 +161,9 @@
 }
 
 .text {
-  display: flex;
   max-width: 270px;
   max-height: 100px;
-  background-color: var(--background-default);
+  background-color: var(--text-default);
 }
 
 .text_view_primary {
@@ -190,8 +178,7 @@
 
 .text__word {
   display: block;
-
-  background-color: var(--text-default);
+  margin-bottom: 30px;
 }
 
 .text_size_l .text__word_width_l {
@@ -275,7 +262,6 @@
 }
 
 .placeholder_view_primary {
-
   background-color: var(--text-default);
 }
 
