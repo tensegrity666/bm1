@@ -1,7 +1,7 @@
 .grid__fraction_m-col_4 {
-  width: 30%;
+  width: calc(var(--col) * 4);
 }
 
 .grid__fraction_m-col_8 {
-  width: 70%;
+  width: calc(var(--col) * 8);
 }

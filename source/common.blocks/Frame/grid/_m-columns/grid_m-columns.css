@@ -1,7 +1,8 @@
 .grid__fraction_m-columns_10 {
-
+  --col: 10%;
 }
 
 .grid__fraction_m-columns_12 {
-
+  --col: 8.33%;
 }
+
