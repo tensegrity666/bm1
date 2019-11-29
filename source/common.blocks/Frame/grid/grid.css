@@ -1,4 +1,4 @@
 .grid {
-  --screen-m: var(--breakpoint);
   display: flex;
+  justify-content: space-between;
 }

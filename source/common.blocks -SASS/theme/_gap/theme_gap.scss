@@ -1,0 +1,11 @@
+@import "variables.scss";
+
+.theme_gap_small {
+  --gap: var(--space-xxxl);
+}
+
+@media (max-width: $breakpoint) {
+  .theme_gap_small {
+  --gap: var(--space-m);
+  }
+}
