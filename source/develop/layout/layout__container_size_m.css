@@ -1,5 +1,0 @@
-.layout__container_size_m {
-  --desktop-width: 1280px;
-
-  max-width: var(--desktop-width);
-}
