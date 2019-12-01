@@ -1,1 +1,3 @@
-.list_view_default {}
+.list_view_default {
+  background-color: var(--background-default);
+}

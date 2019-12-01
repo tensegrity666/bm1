@@ -1,7 +1,0 @@
-.theme {
-  background-color: var(--background-default);
-  color: var(--text-default);
-  border-color: var(--border-color);
-
-  --breakpoint: 1144px;
-}

@@ -1,1 +1,3 @@
-.brand-logo_name_purple {}
+.brand-logo_name_purple {
+  background-color: var(--purple);
+}

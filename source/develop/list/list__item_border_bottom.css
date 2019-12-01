@@ -1,1 +1,3 @@
-.list__item_border_bottom {}
+.list__item_border_bottom {
+  border-bottom: 3px solid var(--border-color);
+}

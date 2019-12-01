@@ -1,1 +1,6 @@
-.header {}
+.header {
+  display: flex;
+  background-color: var(--background-default);
+  width: 100%;
+  min-height: 85px;
+}

@@ -1,1 +1,4 @@
-.theme {}
+.theme {
+  background-color: var(--background-default);
+  border-color: var(--border-color);
+}

@@ -1,1 +1,4 @@
-.card {}
+.card {
+  display: block;
+  position: relative;
+}

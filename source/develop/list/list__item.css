@@ -1,1 +1,11 @@
-.list__item {}
+.list__item {
+  display: flex;
+}
+
+.list__item:last-child {
+  border-bottom: none;
+}
+
+.list__item:first-child {
+  border-top: none;
+}

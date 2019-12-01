@@ -1,1 +1,3 @@
-.brand-logo_name_red {}
+.brand-logo_name_red {
+  background-color: var(--red);
+}

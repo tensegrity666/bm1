@@ -1,1 +1,3 @@
-.text_view_link {}
+.text_view_link {
+  background-color: var(--text-link);
+}

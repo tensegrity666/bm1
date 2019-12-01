@@ -1,1 +1,3 @@
-.card_border_all {}
+.card_border_all {
+  border: 3px solid var(--border-color);
+}

@@ -1,1 +1,4 @@
-.placeholder_size_m {}
+.placeholder_size_m {
+  width: 72px;
+  height: 72px;
+}

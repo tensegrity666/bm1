@@ -1,1 +1,4 @@
-.footer {}
+.footer {
+  width: 100%;
+  background-color: var(--background-default);
+}

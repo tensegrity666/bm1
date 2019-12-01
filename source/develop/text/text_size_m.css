@@ -1,1 +1,3 @@
-.text_size_m {}
+.text_size_m {
+  height: var(--font-size-m);
+}

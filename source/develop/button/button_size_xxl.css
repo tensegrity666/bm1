@@ -1,0 +1,4 @@
+.button_size_xxl {
+  width: var(--button-size-w);
+  height: 64px;
+}

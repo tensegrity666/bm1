@@ -1,1 +1,9 @@
-.theme_gap_small {}
+.theme_gap_small {
+  --gap: var(--space-xxxl);
+}
+
+@media (max-width: var(--breakpoint)) {
+  .theme_gap_small {
+  --gap: var(--space-m);
+  }
+}

@@ -1,1 +1,15 @@
-.onoffswitch__button {}
+.onoffswitch__button {
+  position: absolute;
+  display: block;
+  top: 2px;
+  left: 2px;
+  width: 26px;
+  height: 26px;
+  background-color: var(--text-default);
+}
+
+.onoffswitch_checked .onoffswitch__button {
+  position: absolute;
+  top: 2px;
+  left: 67px;
+}

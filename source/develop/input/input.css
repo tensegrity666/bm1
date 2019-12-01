@@ -1,1 +1,4 @@
-.input {}
+.input {
+  width: 100%;
+  background-color: var(--background-accent);
+}

@@ -1,1 +1,4 @@
-.text__word {}
+.text__word {
+  display: block;
+  background-color: var(--text-default);
+}

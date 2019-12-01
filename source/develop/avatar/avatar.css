@@ -1,1 +1,4 @@
-.avatar {}
+.avatar {
+  display: block;
+  background-color: var(--text-default);
+}

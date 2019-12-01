@@ -1,0 +1,10 @@
+.theme_color_project-default {
+  --background-default: rgb(0, 119, 255);
+  --background-accent: rgb(255, 255, 255);
+  --border-color: rgb(255, 255, 255);
+
+  --text-default: rgb(255, 255, 255);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-ghost: rgba(255, 255, 255, 0.3);
+  --link-color: rgb(255, 255, 255);
+}

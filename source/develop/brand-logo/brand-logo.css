@@ -1,1 +1,8 @@
-.brand-logo {}
+.brand-logo {
+  --blue: rgb(93, 205, 249);
+  --green: rgb(35, 179, 36);
+  --red: rgb(255, 51, 51);
+  --purple: rgb(198, 44, 255);
+
+  display: block;
+}
