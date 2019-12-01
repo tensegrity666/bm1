@@ -1,1 +1,3 @@
-.layout__container_align_center {}
+.layout__container_align_center {
+  justify-content: center;
+}

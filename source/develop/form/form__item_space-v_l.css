@@ -1,1 +1,3 @@
-.form__item_space-v_l {}
+.form__item_space-v_l {
+  padding: var(--space-l) 0;
+}

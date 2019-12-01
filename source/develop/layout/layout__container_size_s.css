@@ -1,0 +1,5 @@
+.layout__container_size_m {
+  --tablet-width: 920px;
+
+  max-width: var(--tablet-width);
+}

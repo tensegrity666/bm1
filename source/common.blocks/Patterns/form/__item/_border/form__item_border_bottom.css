@@ -1,8 +1,0 @@
-.form__item_border_bottom {
-  border-bottom: 1px solid var(--background-default);
-}
-
-.form__item_border_bottom:last-child {
-  border: none;
-}
-

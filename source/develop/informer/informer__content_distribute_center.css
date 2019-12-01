@@ -1,1 +1,3 @@
-.informer__content_distribute_center {}
+.informer__content_distribute_center {
+  align-items: center;
+}

@@ -1,7 +1,0 @@
-.form__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 200px;
-}

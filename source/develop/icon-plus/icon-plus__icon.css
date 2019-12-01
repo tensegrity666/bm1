@@ -1,1 +1,3 @@
-.icon-plus__icon {}
+.icon-plus__icon {
+  display: block;
+}

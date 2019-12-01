@@ -1,1 +1,11 @@
-.form__item {}
+.form__item {
+  display: flex;
+}
+
+.form__item:first-child {
+  border-top: none;
+}
+
+.form__item:last-child {
+  border-bottom: none;
+}

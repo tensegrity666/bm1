@@ -1,1 +1,3 @@
-.layout__container {}
+.layout__container {
+  display: flex;
+}

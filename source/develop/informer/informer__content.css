@@ -1,1 +1,3 @@
-.informer__content {}
+.informer__content {
+  display: flex;
+}

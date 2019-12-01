@@ -1,1 +1,3 @@
-.form__item_vertical-align_center {}
+.form__item_vertical-align_center {
+  align-items: center;
+}

@@ -1,1 +1,3 @@
-.icon-plus {}
+.icon-plus {
+  display: flex;
+}
