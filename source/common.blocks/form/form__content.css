@@ -1,1 +1,3 @@
-.form__content {}
+.form__content {
+  display: flex;
+}

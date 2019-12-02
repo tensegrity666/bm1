@@ -9,3 +9,7 @@
 .form__item:last-child {
   border-bottom: none;
 }
+
+.payment__content .form__item:last-child {
+  margin-bottom: 0;
+}

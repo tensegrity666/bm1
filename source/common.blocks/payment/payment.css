@@ -1,1 +1,8 @@
-.payment {}
+.payment {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 844px;
+  min-height: 389px;
+}

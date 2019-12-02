@@ -2,6 +2,4 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  width: 260px;
-  height: 80px;
 }

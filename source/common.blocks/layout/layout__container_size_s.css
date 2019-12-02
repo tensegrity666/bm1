@@ -1,5 +1,3 @@
-.layout__container_size_m {
-  --tablet-width: 920px;
-
-  max-width: var(--tablet-width);
+.layout__container_size_s {
+  width: 920px;
 }

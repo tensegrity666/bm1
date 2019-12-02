@@ -1,1 +1,5 @@
-.payment__content {}
+.payment__content {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}

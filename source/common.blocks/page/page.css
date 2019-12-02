@@ -1,14 +1,7 @@
 .page {
-  --breakpoint: 1144px;
+  --breakpoint: 1024px;
 
   max-width: 1280px;
   margin: 0 auto;
   box-sizing: border-box;
-}
-
-@media (max-width: var(--breakpoint)) {
-  .page {
-    width: 960px;
-    margin: 0 auto;
-  }
 }

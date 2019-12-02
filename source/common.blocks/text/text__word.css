@@ -1,4 +1,7 @@
 .text__word {
   background-color: var(--text-default);
+}
+
+.warning__content .text__word {
   margin-bottom: var(--line-height-s);
 }
