@@ -1,4 +1,6 @@
 .placeholder_size_m {
   width: 72px;
   height: 72px;
+  margin-top: var(--space-m);
+  margin-bottom: var(--space-xl);
 }

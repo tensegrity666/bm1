@@ -1,1 +1,7 @@
-.warning {}
+.warning {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 402px;
+  min-height: 383px;
+}

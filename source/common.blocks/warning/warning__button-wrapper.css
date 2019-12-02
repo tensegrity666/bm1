@@ -1,1 +1,4 @@
-.warning__button-wrapper {}
+.warning__button-wrapper {
+  justify-content: center;
+  align-items: center;
+}
