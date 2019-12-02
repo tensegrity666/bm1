@@ -1,4 +1,4 @@
 .text__word {
-  display: block;
   background-color: var(--text-default);
+  margin-bottom: var(--line-height-s);
 }
