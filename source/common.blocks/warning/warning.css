@@ -1,7 +1,8 @@
 .warning {
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   justify-content: space-between;
-  width: 402px;
-  min-height: 383px;
+  width: 408px;
+  height: 389px;
 }
