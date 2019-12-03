@@ -1,9 +1,13 @@
 .payment {
-  position: relative;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 844px;
   height: 389px;
+}
+
+/* hack for pixelperfect */
+.payment .text__word {
+  margin-bottom: 2px;
 }

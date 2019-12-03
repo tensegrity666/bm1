@@ -1,7 +1,11 @@
 .payment__header {
   box-sizing: border-box;
+  align-items: stretch;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   height: 89px;
+}
+
+/* hack for pixelperfect */
+.payment__header .text__word {
+  margin-bottom: 6px;
 }
