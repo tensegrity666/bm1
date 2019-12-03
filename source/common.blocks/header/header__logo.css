@@ -1,7 +1,6 @@
 .header__logo {
   display: block;
-  width: 180px;
-  height: 30px;
-  border: 2px solid var(--border-color);
+  width: 179px;
+  height: 34px;
   background-color: var(--text-default);
 }
