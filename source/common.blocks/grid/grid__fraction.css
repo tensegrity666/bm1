@@ -1,5 +1,5 @@
 .grid__fraction {
   --screen-m: 1280px;
 
-  justify-content: space-between;
+  min-height: 300px;
 }
