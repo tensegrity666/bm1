@@ -1,3 +1,5 @@
 .grid__fraction {
-  --screen-m: var(--breakpoint);
+  --screen-m: 1280px;
+
+  justify-content: space-between;
 }

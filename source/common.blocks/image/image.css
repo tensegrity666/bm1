@@ -1,10 +1,11 @@
 .image {
-  width: 100%;
-  background-image: url(/source/img/image-placeholder-primary.svg);
-  background-color: var(--text-default);
-  border: 3px solid var(--border-color);
+  width: 203px;
+  height: 160px;
+  background-image: url(../source/img/image-placeholder-primary.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .theme_color_project-inverse .image {
-  background-image: url(/source/img/image-placeholder-inverse.svg);
+  background-image: url(../source/img/image-placeholder-inverse.svg);
 }

@@ -1,1 +1,11 @@
-.product__footer {}
+.product__footer {
+  height: 38px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.product__footer .text__word {
+  margin-bottom: var(--space-s);
+}

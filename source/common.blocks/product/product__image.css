@@ -1,1 +1,4 @@
-.product__image {}
+.product__image {
+  justify-content: center;
+  align-items: center;
+}

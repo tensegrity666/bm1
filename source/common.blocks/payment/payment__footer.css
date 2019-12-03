@@ -1,1 +1,8 @@
-.payment__footer {}
+.payment__footer {
+  position: absolute;
+  box-sizing: border-box;
+  height: 38px;
+  padding-bottom: 0;
+  bottom: 0;
+  left: 0;
+}

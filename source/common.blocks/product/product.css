@@ -1,1 +1,10 @@
-.product {}
+.product {
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 245px;
+  height: 300px;
+}
