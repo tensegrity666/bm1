@@ -1,9 +1,9 @@
 .theme_gap_small {
-  --gap: var(--space-xxxl);
+  --gap: var(--space-xl);
 }
 
 @media (max-width: var(--breakpoint)) {
   .theme_gap_small {
-  --gap: var(--space-m);
+  --gap: var(--space-s);
   }
 }

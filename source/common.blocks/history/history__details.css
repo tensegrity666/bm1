@@ -1,1 +1,4 @@
-.history__details {}
+.history__details {
+  display: flex;
+  align-items: center;
+}

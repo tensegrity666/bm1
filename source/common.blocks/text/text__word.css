@@ -1,4 +1,5 @@
 .text__word {
+  display: inline-block;
   background-color: var(--text-default);
 }
 

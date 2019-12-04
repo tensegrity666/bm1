@@ -1,1 +1,11 @@
-.history__time {}
+.history__time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.history__time .text__word {
+  background-color: inherit;
+  margin-bottom: 0;
+}

@@ -1,4 +1,3 @@
 .grid_col-gap_full {
-  margin-left: var(--gap);
-  margin-right: var(--gap);
+  margin: 0 var(--gap);
 }

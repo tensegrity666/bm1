@@ -1,1 +1,6 @@
-.history__info {}
+.history__info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  margin-bottom: 9px;
+}

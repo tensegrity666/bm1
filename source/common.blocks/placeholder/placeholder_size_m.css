@@ -2,5 +2,7 @@
   width: 72px;
   height: 72px;
   margin-top: var(--space-m);
+
+  /* hack for pixelperfect */
   margin-bottom: var(--space-xl);
 }

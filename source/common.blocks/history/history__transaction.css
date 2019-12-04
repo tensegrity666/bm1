@@ -1,1 +1,7 @@
-.history__transaction {}
+.history__transaction {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}

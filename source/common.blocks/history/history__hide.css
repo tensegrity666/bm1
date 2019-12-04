@@ -1,1 +1,4 @@
-.history__hide {}
+.history__hide {
+  display: none;
+  flex-direction: column;
+}
