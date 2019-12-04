@@ -1,1 +1,10 @@
-.event__footer {}
+.event__footer {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+.event__footer .text__word {
+  background-color: inherit;
+}

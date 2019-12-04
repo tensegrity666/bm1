@@ -1,1 +1,6 @@
-.event__description {}
+.event__description {
+  display: flex;
+  width: 415px;
+  height: 85px;
+  justify-content: center;
+}

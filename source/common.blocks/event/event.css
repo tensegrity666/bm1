@@ -1,1 +1,7 @@
-.event {}
+.event {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 626px;
+  min-height: 400px;
+}

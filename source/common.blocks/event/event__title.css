@@ -1,1 +1,5 @@
-.event__title {}
+.event__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--space-xl);
+}

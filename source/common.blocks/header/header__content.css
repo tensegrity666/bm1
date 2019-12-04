@@ -3,6 +3,5 @@
   max-width: 1280px;
   justify-content: space-between;
   align-items: center;
-  margin-top: var(--space-xxxl);
-  margin-bottom: var(--space-m);
+  margin: var(--space-xxxl) 0;
 }
