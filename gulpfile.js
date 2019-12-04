@@ -4,19 +4,12 @@ const { src, dest, watch } = require("gulp");
 const stylelint = require("gulp-stylelint");
 const browserSync = require("browser-sync").create();
 const gulpConcat = require("gulp-concat");
-const reload = browserSync.reload;
-
-function lint() {
-  return src("source/common.blocks/*.css")
-    .pipe(stylelint({
-      reporters: [{ formatter: 'string', console: true }]
-    }));
-};
 
 function concat() {
   return src("source/common.blocks/**/*.css")
     .pipe(gulpConcat("main.css"))
-    .pipe(dest("build/"));
+    .pipe(dest("build/"))
+    .pipe(browserSync.stream());
 };
 
 function server() {
@@ -27,10 +20,9 @@ function server() {
     cors: true,
     ui: false
   });
-  watch("source/common.blocks/*.css", concat);
-  watch("build/*.html").on("change", reload);
+  watch("source/common.blocks/**/*.css", concat);
+  watch("*.html").on("change", browserSync.reload);
 };
 
-exports.lint = lint;
 exports.concat = concat;
 exports.server = server;
