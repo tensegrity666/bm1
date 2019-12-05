@@ -18,7 +18,7 @@
       class="layout__container layout__container_size_m layout__container_align_center">
       <div class="grid grid_col-gap_full grid_row-gap_full grid_m-columns_10">
         
-        <!-- <div class="grid__fraction grid__fraction_m-col_5">
+        <div class="grid__fraction grid__fraction_m-col_5">
 
           <div class="history list list_view_default list_border_all">
             <div
@@ -273,7 +273,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
 
 
         <div class="grid__fraction grid__fraction_m-col_5">
@@ -318,6 +318,24 @@
 
   </div>
 </div>
+
+<script>
+  "Use strict";
+
+  const accordionTitle = document.getElementsByClassName("history__show");
+  const accordionBody = document.getElementsByClassName("e-accordion__more");
+
+  for (let i = 0; i < accordionTitle.length; i++) {
+    accordionTitle[i].addEventListener("click", function () {
+      if (this.classList.contains("history__hide")) {
+        for (const i = 0; i < accordionTitle.length; ++i) {
+          accordionTitle[i].classList.remove("history__hide");
+        }
+        this.classList.add("history__hide");
+      }
+    });
+  }
+</script>
 
 </body>
 </html>

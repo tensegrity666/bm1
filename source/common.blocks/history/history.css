@@ -1,7 +1,6 @@
 .history {
   display: flex;
+  width: 626px;
   box-sizing: border-box;
   flex-direction: column;
-  width: 626px;
-  min-height: 400px;
 }

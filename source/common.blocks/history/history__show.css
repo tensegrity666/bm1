@@ -1,14 +1,12 @@
 .history__show {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
 }
 
 .history__show.list__item_indent-t_m {
   margin-top: 0;
 }
 
-/* hack for pixelperfect */
 .history__show .text__word {
+  /* hack for pixelperfect */
   margin-bottom: 2px;
 }
