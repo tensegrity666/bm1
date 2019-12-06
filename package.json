@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Yandex SHRI winter 2020, Design System",
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "bem",
     "yandex"
@@ -22,3 +19,4 @@
     "stylelint-config-standard": "^19.0.0"
   }
 }
+

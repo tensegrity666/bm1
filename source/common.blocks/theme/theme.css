@@ -1,3 +1,8 @@
+html, body {
+  background-color: var(--background-default);
+  border-color: var(--border-color);
+}
+
 .theme {
   background-color: var(--background-default);
   border-color: var(--border-color);

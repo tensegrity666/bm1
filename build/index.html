@@ -8,8 +8,7 @@
 <link rel="stylesheet" href="main.css">
 <title>index</title>
 </head>
-
-<script src="/source/script/theme.js"></script>
+<body>
 
 <div
   class="page theme theme_color_project-default theme_size_default theme_space_default theme_gap_small">
@@ -473,7 +472,7 @@
     </div>
 
   </div>
-  
+
   <div class="footer">
     <div class="footer__content">
       <div class="text text_view_primary text_size_l">
@@ -487,4 +486,18 @@
   </div>
 </div>
 
+<script>
+
+  const themeToggle = document.querySelector(".onoffswitch");
+  const themeInvert = document.querySelector(".theme");
+
+  themeToggle.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    themeInvert.classList.remove("theme_color_project-default");
+    themeInvert.classList.add("theme_color_project-inverse");
+  });
+
+</script>
+
+</body>
 </html>
