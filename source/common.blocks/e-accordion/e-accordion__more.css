@@ -1,5 +1,4 @@
 .e-accordion__more {
   display: flex;
-  max-height: 200px;
   flex-direction: column;
 }
