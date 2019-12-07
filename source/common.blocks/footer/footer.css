@@ -1,4 +1,9 @@
 .footer {
+  position: absolute;
+  bottom: -115px;
   width: 100%;
+  left: 0;
+  right: 0;
   background-color: var(--background-default);
+  z-index: 0;
 }

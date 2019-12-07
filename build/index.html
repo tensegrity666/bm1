@@ -493,8 +493,8 @@
 
   themeToggle.addEventListener("click", function (evt) {
     evt.preventDefault();
-    themeInvert.classList.remove("theme_color_project-default");
-    themeInvert.classList.add("theme_color_project-inverse");
+    themeInvert.classList.toggle("theme_color_project-default");
+    themeInvert.classList.toggle("theme_color_project-inverse");
   });
 
 </script>

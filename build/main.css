@@ -130,7 +130,7 @@
 
 .card__footer {
   position: absolute;
-  display: block;
+  display: flex;
   bottom: 0;
   left: 0;
 }
@@ -184,17 +184,18 @@
 }
 
 .e-accordion {
+  min-height: 90px;
+  max-height: 250px;
+  transition: all 5s ease-in-out;
 }
 
 .e-accordion__more {
   display: flex;
-  max-height: 200px;
   flex-direction: column;
 }
 
 .e-accordion__short {
   width: 100%;
-  max-height: 105px;
   display: flex;
   justify-content: space-between;
 }
@@ -250,8 +251,13 @@
 
 .event_brand_blue {}
 .footer {
+  position: absolute;
+  bottom: -115px;
   width: 100%;
+  left: 0;
+  right: 0;
   background-color: var(--background-default);
+  z-index: 0;
 }
 
 .footer__content {
@@ -259,7 +265,6 @@
   max-width: 1280px;
   justify-content: space-between;
   align-items: center;
-  margin-top: var(--space-xxxxl);
   margin-bottom: var(--space-xxxxl);
 }
 
@@ -451,8 +456,6 @@
 
 .grid__fraction {
   --screen-m: 1280px;
-
-  min-height: 300px;
 }
 
 .grid__fraction_m-col_2 {
@@ -507,11 +510,33 @@
   margin-bottom: calc(var(--gap) / 2); */
 }
 
+.header {
+  width: 100%;
+  background-color: var(--background-default);
+}
+
+.header__content {
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--space-xxxl) 0;
+}
+
+.header__logo {
+  display: block;
+  width: 179px;
+  height: 34px;
+  background-color: var(--text-default);
+}
+
 .history {
   display: flex;
+  position: relative;
   width: 626px;
   box-sizing: border-box;
   flex-direction: column;
+  z-index: 1;
 }
 
 .history__actions {
@@ -597,26 +622,6 @@
 .history__transaction_brand_red {
   position: relative;
 }
-.header {
-  width: 100%;
-  background-color: var(--background-default);
-}
-
-.header__content {
-  display: flex;
-  max-width: 1280px;
-  justify-content: space-between;
-  align-items: center;
-  margin: var(--space-xxxl) 0;
-}
-
-.header__logo {
-  display: block;
-  width: 179px;
-  height: 34px;
-  background-color: var(--text-default);
-}
-
 .icon-plus {
   display: flex;
 }
@@ -655,38 +660,6 @@
 
 .theme_color_project-inverse .image {
   background-image: url(../source/img/image-placeholder-inverse.svg);
-}
-
-.input {
-  width: 100%;
-  background-color: var(--background-accent);
-}
-
-.payment__content .input {
-  width: 510px;
-  box-sizing: border-box;
-  border: 3px solid var(--border-color);
-  background-color: var(--background-default);
-}
-
-.input_size_l {
-  height: 42px;
-}
-
-.input_size_m {
-  height: 32px;
-}
-
-.input_size_s {
-  height: 24px;
-}
-
-.input_size_xl {
-  height: 56px;
-}
-
-.input_size_xxl {
-  height: 64px;
 }
 
 .informer {
@@ -744,6 +717,38 @@
 
 .informer_view_default {
   background-color: var(--background-default);
+}
+
+.input {
+  width: 100%;
+  background-color: var(--background-accent);
+}
+
+.payment__content .input {
+  width: 510px;
+  box-sizing: border-box;
+  border: 3px solid var(--border-color);
+  background-color: var(--background-default);
+}
+
+.input_size_l {
+  height: 42px;
+}
+
+.input_size_m {
+  height: 32px;
+}
+
+.input_size_s {
+  height: 24px;
+}
+
+.input_size_xl {
+  height: 56px;
+}
+
+.input_size_xxl {
+  height: 64px;
 }
 
 .layout {
@@ -881,7 +886,8 @@
 .page {
   --breakpoint: 1024px;
 
-  max-width: 1280px;
+  position: relative;
+  width: 1280px;
   margin: 0 auto;
   box-sizing: border-box;
 }
