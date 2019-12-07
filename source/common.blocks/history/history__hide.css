@@ -1,3 +1,9 @@
 .history__hide {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.history__hide.list__item_indent-t_m {
+  margin-top: 0;
 }

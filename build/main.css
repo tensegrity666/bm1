@@ -95,23 +95,6 @@
   width: 100%;
 }
 
-.e-accordion {
-  min-height: 90px;
-  max-height: 250px;
-  transition: all 5s ease-in-out;
-}
-
-.e-accordion__more {
-  display: flex;
-  flex-direction: column;
-}
-
-.e-accordion__short {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
 .card {
   display: flex;
   box-sizing: border-box;
@@ -201,6 +184,42 @@
   background-color: var(--background-default);
 }
 
+.e-accordion {
+}
+
+.e-accordion__more {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  overflow: hidden;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.e-accordion__short {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  position: absolute;
+  bottom: -115px;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-default);
+  z-index: -1;
+}
+
+.footer__content {
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-xxxxl);
+}
+
 .event {
   display: flex;
   box-sizing: border-box;
@@ -256,25 +275,6 @@
 }
 
 .event_brand_blue {}
-.footer {
-  position: absolute;
-  bottom: -115px;
-  width: 100%;
-  left: 0;
-  right: 0;
-  background-color: var(--background-default);
-  z-index: 0;
-  transition: all 0.2s linear;
-}
-
-.footer__content {
-  display: flex;
-  max-width: 1280px;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: var(--space-xxxxl);
-}
-
 .form {
   display: block;
 }
@@ -547,7 +547,7 @@
   width: 626px;
   box-sizing: border-box;
   flex-direction: column;
-  z-index: 1;
+  z-index: 0;
 }
 
 .history__actions {
@@ -573,9 +573,14 @@
 }
 
 .history__hide {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
 }
 
+.history__hide.list__item_indent-t_m {
+  margin-top: 0;
+}
 .history__info {
   display: flex;
   flex-direction: column;
@@ -599,7 +604,8 @@
   margin-bottom: 2px;
 }
 
-.history__show_brand_blue {}
+.history__show_brand_blue {
+}
 .history__show_brand_green {}
 .history__show_brand_purple {}
 .history__show_brand_red {}
@@ -622,8 +628,8 @@
 }
 
 .history__transaction_brand_blue {
-  position: relative;
 }
+
 .history__transaction_brand_green {
   position: relative;
 }
@@ -664,13 +670,24 @@
 .image {
   width: 203px;
   height: 160px;
-  background-image: url(../source/img/image-placeholder-primary.svg);
+  background-image: url(image-placeholder-primary.svg);
+  background-color: var(--background-accent);
   background-position: center;
   background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+
 }
 
-.theme_color_project-inverse .image {
-  background-image: url(../source/img/image-placeholder-inverse.svg);
+
+.theme_color_project-inverse > .image {
+  width: 203px;
+  height: 160px;
+  background-image: url(image-placeholder-inverse.svg);
+  background-color: var(--background-default);
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+
 }
 
 .informer {
