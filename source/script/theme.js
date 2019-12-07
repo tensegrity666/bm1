@@ -1,21 +1,17 @@
 'Use strict';
-
-  const  = document.querySelector('_cheked');
-  const themeInvert = document.querySelector('.theme');
-
-theme.addEventListener('click', function (evt) {
-  evt.preventDefault();
-  themeInvert.classList.add('theme_color_project-invert');
-  theme.classList.remove('onoffswitch_cheked');
-  });
-
-
 {
-  const themeToggle = document.querySelector(".onoffswitch");
-  const themeInvert = document.querySelector(".theme");
+const themeToggle = document.querySelector(".onoffswitch");
+const themeInverse = document.querySelectorAll(".theme");
+const page = document.querySelector("html");
 
-  themeToggle.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    themeInvert.classList.add("theme_color_project-invert");
-  });
+themeToggle.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  themeToggle.classList.toggle("onoffswitch_checked");
+
+    themeInverse[i].classList.toggle("theme_color_project-inverse");
+    if (page.hasAttribute("style"))
+      page.removeAttribute("style");
+    else
+      page.setAttribute("style", "background-color: #000; transition: background-color 0.1s ease-in-out");
+});
 }

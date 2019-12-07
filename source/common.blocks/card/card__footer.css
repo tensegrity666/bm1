@@ -1,6 +1,6 @@
 .card__footer {
   position: absolute;
-  display: flex;
+  display: block;
   bottom: 0;
   left: 0;
 }

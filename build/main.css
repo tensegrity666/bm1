@@ -63,6 +63,7 @@
   --button-size-w: 200px;
 
   background-color: var(--background-accent);
+  transition: all 0.5s ease-in-out;
 }
 
 .button_size_l {
@@ -92,6 +93,23 @@
 
 .button_width_full {
   width: 100%;
+}
+
+.e-accordion {
+  min-height: 90px;
+  max-height: 250px;
+  transition: all 5s ease-in-out;
+}
+
+.e-accordion__more {
+  display: flex;
+  flex-direction: column;
+}
+
+.e-accordion__short {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .card {
@@ -130,7 +148,7 @@
 
 .card__footer {
   position: absolute;
-  display: flex;
+  display: block;
   bottom: 0;
   left: 0;
 }
@@ -183,29 +201,17 @@
   background-color: var(--background-default);
 }
 
-.e-accordion {
-  min-height: 90px;
-  max-height: 250px;
-  transition: all 5s ease-in-out;
-}
-
-.e-accordion__more {
-  display: flex;
-  flex-direction: column;
-}
-
-.e-accordion__short {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
 .event {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
   width: 626px;
   min-height: 400px;
+  border: 3px solid var(--border-color);
+}
+
+.event.theme_color_project-inverse {
+  border: none;
 }
 
 .event__content {
@@ -258,6 +264,7 @@
   right: 0;
   background-color: var(--background-default);
   z-index: 0;
+  transition: all 0.2s linear;
 }
 
 .footer__content {
@@ -277,6 +284,8 @@
   box-sizing: border-box;
 }
 
+.form__control {
+}
 
 .form__header {
   display: flex;
@@ -513,6 +522,7 @@
 .header {
   width: 100%;
   background-color: var(--background-default);
+  transition: background-color 0.1s ease-in-out;
 }
 
 .header__content {
@@ -528,6 +538,7 @@
   width: 179px;
   height: 34px;
   background-color: var(--text-default);
+  transition: background-color 1s ease-in-out;
 }
 
 .history {
@@ -875,9 +886,10 @@
   height: 24px;
   border: 2px solid var(--border-color);
   background-color: var(--border-color);
+  transition: all 0.5s ease-in-out;
 }
 
-.onoffswitch_checked .onoffswitch__button {
+.onoffswitch_checked > .onoffswitch__button {
   position: absolute;
   top: 2px;
   left: 67px;
@@ -887,7 +899,7 @@
   --breakpoint: 1024px;
 
   position: relative;
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -1122,9 +1134,10 @@ justify-content: space-around;
 .theme {
   background-color: var(--background-default);
   border-color: var(--border-color);
+  transition: all 0.1s ease-in-out;
 }
 
-.theme_color_project-default {
+.theme_color_project-brand {
   --background-default: rgb(0, 119, 255);
   --background-accent: rgb(255, 255, 255);
   --border-color: rgb(255, 255, 255);
@@ -1144,6 +1157,8 @@ justify-content: space-around;
   --text-secondary: rgba(0, 0, 0, 0.6);
   --text-ghost: rgba(0, 0, 0, 0.3);
   --link-color: rgb(0, 119, 255);
+
+  transition: all 0.1s ease-in-out;
 }
 
 .theme_color_project-inverse {
@@ -1155,6 +1170,8 @@ justify-content: space-around;
   --text-secondary: rgba(255, 255, 255, 0.6);
   --text-ghost: rgba(255, 255, 255, 0.3);
   --link-color: rgb(0, 112, 240);
+
+  transition: all 0.1s ease-in-out;
 }
 
 .theme_color_project-warning {
