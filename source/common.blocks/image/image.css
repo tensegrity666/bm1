@@ -1,11 +1,22 @@
 .image {
   width: 203px;
   height: 160px;
-  background-image: url(../source/img/image-placeholder-primary.svg);
+  background-image: url(image-placeholder-primary.svg);
+  background-color: var(--background-accent);
   background-position: center;
   background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+
 }
 
-.theme_color_project-inverse .image {
-  background-image: url(../source/img/image-placeholder-inverse.svg);
+
+.theme_color_project-inverse > .image {
+  width: 203px;
+  height: 160px;
+  background-image: url(image-placeholder-inverse.svg);
+  background-color: var(--background-default);
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+
 }
