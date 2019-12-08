@@ -7,14 +7,14 @@ const gulpConcat = require("gulp-concat");
 
 function style() {
   return src("source/common.blocks/**/*.css")
-    .pipe(gulpConcat("main.css"))
+    .pipe(gulpConcat("style.css"))
     .pipe(dest("build/"))
     .pipe(browserSync.stream());
 };
 
 function script() {
   return src("source/scripts/*.js")
-    .pipe(gulpConcat("main.js"))
+    .pipe(gulpConcat("script.js"))
     .pipe(dest("build/"))
     .pipe(browserSync.stream());
 };
