@@ -6,3 +6,12 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+@media (max-width: var(--breakpoint)) {
+  .page {
+    position: relative;
+    max-width: 920px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}

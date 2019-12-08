@@ -8,7 +8,7 @@
     evt.preventDefault();
     themeToggle.classList.toggle("onoffswitch_checked");
 
-    for (let i = 0; i < themeInverse.length; i++) {
+    for (let i = 0; i < themeInverse.length; ++i) {
       themeInverse[i].classList.toggle("theme_color_project-inverse");
     }
 

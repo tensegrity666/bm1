@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
@@ -325,15 +325,16 @@
 
    {
       const accordionToggle = document.querySelectorAll(".history__transaction");
-      const accordionHide = document.querySelectorAll(".history__hide");
 
-      for (let i = 0; i < accordionToggle.length; ++i) {
-        accordionToggle[i].addEventListener("click", function (evt) {
-          evt.preventDefault();
-          accordionHide[i].classList.toggle("history__hide");
-        });
-      }
-    }
+      accordionToggle.forEach((item) => {
+        item.addEventListener ("click", function() {
+          const accordionHide = document.querySelectorAll(".history__hide");
+          for (let i = 0; i < accordionHide.length; ++i) {
+            accordionHide.classList.add("history__hide");
+          }
+      });
+  });
+}
 
 
 </script>
