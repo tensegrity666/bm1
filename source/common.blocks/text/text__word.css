@@ -1,6 +1,7 @@
 .text__word {
   display: inline-block;
   background-color: var(--text-default);
+  margin-bottom: 15px;
 }
 
 .warning__content .text__word {

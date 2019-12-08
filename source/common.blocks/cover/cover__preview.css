@@ -1,1 +1,10 @@
-.cover__preview {}
+.cover__preview {
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 3px solid var(--border-color);
+  background-color: var(--background-default);
+  width: 337px;
+  height: 180px;
+  margin-bottom: 32px;
+}

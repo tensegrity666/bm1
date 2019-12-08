@@ -1,1 +1,8 @@
-.cover {}
+.cover {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 409px;
+  height: 472px;
+}

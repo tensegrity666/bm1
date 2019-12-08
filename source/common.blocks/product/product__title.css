@@ -1,1 +1,6 @@
-.product__title {}
+.product__title {
+  display: flex;
+  align-items: center;
+  height: 115px;
+  padding-top: 15px;
+}

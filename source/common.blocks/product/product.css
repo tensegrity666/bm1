@@ -1,5 +1,6 @@
 .product {
   display: flex;
+  flex-grow: 1;
   position: relative;
   box-sizing: border-box;
   flex-direction: column;

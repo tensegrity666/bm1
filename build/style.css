@@ -60,6 +60,7 @@
 
 
 .button {
+  box-sizing: border-box;
   --button-size-w: 200px;
 
   background-color: var(--background-accent);
@@ -121,8 +122,12 @@
   padding: var(--space-xl);
 }
 
+.card__content_space-a_xxl {
+  padding: var(--space-xxl);
+}
+
 .card__content_space-a_xxxl {
-  padding: var(--space-m);
+  padding: var(--space-xxxl);
 }
 
 .card__content_vertical-align_center {
@@ -203,21 +208,37 @@
   justify-content: space-between;
 }
 
-.footer {
-  position: absolute;
-  bottom: -115px;
-  left: 0;
-  width: 100%;
-  background-color: var(--background-default);
-  z-index: -1;
+.cover {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 409px;
+  height: 472px;
 }
 
-.footer__content {
+.cover__footer {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.cover__info {
+  flex-direction: column;
   display: flex;
-  max-width: 1280px;
-  justify-content: space-between;
+}
+.cover__preview {
+  justify-content: center;
   align-items: center;
-  margin-bottom: var(--space-xxxxl);
+  box-sizing: border-box;
+  border: 3px solid var(--border-color);
+  background-color: var(--background-default);
+  width: 337px;
+  height: 180px;
+  margin-bottom: 32px;
+}
+
+.cover__text {
+  margin-bottom: 22px;
 }
 
 .event {
@@ -275,6 +296,23 @@
 }
 
 .event_brand_blue {}
+.footer {
+  position: absolute;
+  bottom: -115px;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-default);
+  z-index: -1;
+}
+
+.footer__content {
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-xxxxl);
+}
+
 .form {
   display: block;
 }
@@ -473,6 +511,16 @@
 
 .grid__fraction_m-col_3 {
   max-width: calc((var(--screen-m) / var(--columns)) * 3);
+}
+
+.grid__fraction_m-col_3 .product {
+  width: 310px;
+}
+
+.grid__fraction_m-col_3 .image {
+  width: 268px;
+  background-image: url(image-placeholder-inverse.svg);
+  background-color: var(--background-default);
 }
 
 .grid__fraction_m-col_4 {
@@ -678,7 +726,6 @@
 
 }
 
-
 .theme_color_project-inverse > .image {
   width: 203px;
   height: 160px;
@@ -687,7 +734,15 @@
   background-position: center;
   background-repeat: no-repeat;
   transition: all 0.5s ease-in-out;
+}
 
+.cover__preview > .image {
+  width: 100%;
+  height: auto;
+  background-image: url(image-placeholder-inverse.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
 }
 
 .informer {
@@ -788,6 +843,7 @@
 
 .layout__container {
   display: flex;
+  flex-wrap: wrap;
   box-sizing: border-box;
 }
 
@@ -912,15 +968,6 @@
   left: 67px;
 }
 
-.page {
-  --breakpoint: 1024px;
-
-  position: relative;
-  max-width: 1280px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
 .payment {
   box-sizing: border-box;
   display: flex;
@@ -957,6 +1004,24 @@ justify-content: space-around;
   margin-bottom: 6px;
 }
 
+.page {
+  --breakpoint: 1024px;
+
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: var(--breakpoint)) {
+  .page {
+    position: relative;
+    width: 920px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}
+
 .placeholder {
   display: block;
 }
@@ -976,6 +1041,7 @@ justify-content: space-around;
 
 .product {
   display: flex;
+  flex-grow: 1;
   position: relative;
   box-sizing: border-box;
   flex-direction: column;
@@ -1003,8 +1069,17 @@ justify-content: space-around;
   align-items: center;
 }
 
+.product__title {
+  display: flex;
+  align-items: center;
+  height: 115px;
+  padding-top: 15px;
+}
+
 .section {
   display: flex;
+  min-height: 482px;
+  align-items: flex-start;
 }
 
 .section_indent-b_xxl {
@@ -1032,6 +1107,7 @@ justify-content: space-around;
 .text__word {
   display: inline-block;
   background-color: var(--text-default);
+  margin-bottom: 15px;
 }
 
 .warning__content .text__word {
@@ -1122,6 +1198,14 @@ justify-content: space-around;
   margin-bottom: 24px;
 }
 
+.text_type_h1 + .text {
+  margin: 32px 0;
+}
+
+.text_type_h2 + .text {
+  margin: 27px 0;
+}
+
 .text_type_h2 {
   margin-top: 45px;
   margin-bottom: 21px;
@@ -1203,10 +1287,10 @@ justify-content: space-around;
 }
 
 .theme_gap_small {
+/* No ideas about usage of this variable */
   --gap: 0;
 }
 
-/* No ideas about usage of this variable */
 .theme_size_default {
   --font-size-s: 8px;
   --font-size-m: 10px;

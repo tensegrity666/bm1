@@ -9,7 +9,6 @@
 
 }
 
-
 .theme_color_project-inverse > .image {
   width: 203px;
   height: 160px;
@@ -18,5 +17,13 @@
   background-position: center;
   background-repeat: no-repeat;
   transition: all 0.5s ease-in-out;
+}
 
+.cover__preview > .image {
+  width: 100%;
+  height: auto;
+  background-image: url(image-placeholder-inverse.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
 }

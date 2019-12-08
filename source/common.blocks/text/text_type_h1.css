@@ -2,3 +2,11 @@
   margin-top: 18px;
   margin-bottom: 24px;
 }
+
+.text_type_h1 + .text {
+  margin: 32px 0;
+}
+
+.text_type_h2 + .text {
+  margin: 27px 0;
+}

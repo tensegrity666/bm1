@@ -1,1 +1,4 @@
-.cover__footer {}
+.cover__footer {
+  box-sizing: border-box;
+  width: 100%;
+}
