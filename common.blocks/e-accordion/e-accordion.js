@@ -1,6 +1,3 @@
-"Use strict";
-
-{
   const accordionToggle = document.querySelectorAll(".history__transaction");
   const accordionHide = document.querySelectorAll(".history__hide");
 
@@ -10,4 +7,3 @@
       accordionHide[i].classList.toggle("history__hide");
     });
   }
-}

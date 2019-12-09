@@ -1,5 +1,3 @@
-'Use strict';
-{
   const themeToggle = document.querySelector(".onoffswitch");
   const themeInverse = document.querySelectorAll(".theme");
   const page = document.querySelector("html");
@@ -17,4 +15,4 @@
     else
       page.setAttribute("style", "background-color: #000; transition: background-color 0.1s ease-in-out");
   });
-}
+  
