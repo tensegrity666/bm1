@@ -1,4 +1,4 @@
 .grid_col-gap_two-thirds {
-  margin-left: calc((var(--gap) / 2) * 3);
-  margin-right: calc((var(--gap) / 2) * 3);
+  margin-right: calc((var(--gap) * 2) / 3);
+  margin-left: calc((var(--gap) * 2) / 3);
 }

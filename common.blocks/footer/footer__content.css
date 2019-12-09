@@ -1,7 +1,8 @@
 .footer__content {
   display: flex;
-  max-width: 1280px;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: var(--space-xxxxl);
+  justify-content: space-between;
+  width: 1280px;
+  min-width: 920px;
+  margin: 53px 0;
 }

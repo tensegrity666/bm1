@@ -1,7 +1,8 @@
 .header__content {
   display: flex;
-  max-width: 1280px;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  min-width: 920px;
   margin: var(--space-xxxl) 0;
 }

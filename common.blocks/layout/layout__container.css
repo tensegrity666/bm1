@@ -1,5 +1,5 @@
 .layout__container {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  box-sizing: border-box;
 }

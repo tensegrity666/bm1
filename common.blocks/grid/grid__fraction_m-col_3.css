@@ -8,6 +8,6 @@
 
 .grid__fraction_m-col_3 .image {
   width: 268px;
-  background-image: url(image-placeholder-inverse.svg);
   background-color: var(--background-default);
+  background-image: url(/common.blocks/image/image-placeholder-inverse.svg);
 }
