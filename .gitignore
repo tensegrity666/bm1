@@ -1,3 +1,12 @@
-node_modules
-pages
-temp
+node_modules/
+pages/
+temp/
+.DS_Store
+.vscode
+*.ai
+*.log
+*.pdf
+*.psd
+npm-debug.*
+Thumbs.db
+.stylelintrc.json
