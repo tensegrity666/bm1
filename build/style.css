@@ -58,7 +58,6 @@
   height: 24px;
 }
 
-
 .button {
   box-sizing: border-box;
   --button-size-w: 200px;
@@ -222,8 +221,6 @@
   margin-bottom: 22px;
 }
 
-.e-accordion {
-}
 
 .e-accordion__more {
   box-sizing: border-box;
@@ -288,21 +285,17 @@
   margin-bottom: 44px;
 }
 
-.event__speaker {}
 .event__title {
   display: flex;
   justify-content: center;
   margin-bottom: var(--space-xl);
 }
 
-.event_brand_blue {}
 .footer {
-  /* position: relative; */
   display: flex;
-  margin: 0 auto;
   justify-content: center;
+  margin: 0 auto;
   background-color: var(--background-default);
-  /* z-index: -1; */
 }
 
 .footer__content {
@@ -321,9 +314,6 @@
 .form__content {
   display: flex;
   box-sizing: border-box;
-}
-
-.form__control {
 }
 
 .form__header {
@@ -345,6 +335,7 @@
 .payment__content .form__item:last-child {
   margin-bottom: 0;
 }
+
 .form__item_border_bottom {
   border-bottom: 3px solid var(--border-color);
 }
@@ -483,7 +474,6 @@
   align-items: center;
 }
 
-.form__label {}
 .form__label_width_default {
   width: 35%;
 }
@@ -618,7 +608,6 @@
   justify-content: space-between;
 }
 
-.history__destination {}
 .history__details {
   display: flex;
   align-items: center;
@@ -640,9 +629,6 @@
   margin-bottom: 9px;
 }
 
-.history__label {}
-.history__pic {}
-.history__quantity {}
 .history__show {
   display: flex;
 }
@@ -656,11 +642,6 @@
   margin-bottom: 2px;
 }
 
-.history__show_brand_blue {
-}
-.history__show_brand_green {}
-.history__show_brand_purple {}
-.history__show_brand_red {}
 .history__time {
   display: flex;
   flex-direction: column;
@@ -677,9 +658,6 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-}
-
-.history__transaction_brand_blue {
 }
 
 .history__transaction_brand_green {
@@ -858,9 +836,11 @@
 .layout__container_indent-b_xxl {
   margin-bottom: var(--space-xxl);
 }
+
 .layout__container_indent-b_xxxxl {
   margin-bottom: var(--space-xxxxl);
 }
+
 .layout__container_size_m {
   width: 1280px;
 }
@@ -1046,7 +1026,6 @@ justify-content: space-around;
   height: 300px;
 }
 
-.product__content {}
 .product__footer {
   height: 38px;
   position: absolute;

@@ -1,26 +1,31 @@
-const themeToggle = document.querySelector(".onoffswitch");
-const themeInverse = document.querySelectorAll(".theme");
-const page = document.querySelector("html");
+"Use strict";
 
-themeToggle.addEventListener("click", function () {
-  themeToggle.classList.toggle("onoffswitch_checked");
+document.body.onload = function () {
+  const themeToggle = document.querySelector(".onoffswitch");
 
-  for (let i = 0; i < themeInverse.length; i++) {
-    themeInverse[i].classList.toggle("theme_color_project-inverse");
-  }
+  themeToggle.onclick = function () {
+    const themeInverse = document.querySelectorAll(".theme");
+    const body = document.querySelector("body");
 
-  if (page.hasAttribute("style"))
-    page.removeAttribute("style");
-  else
-    page.setAttribute("style", "background-color: #000; transition: background-color 0.1s ease-in-out");
-});
+    themeToggle.classList.toggle("onoffswitch_checked");
 
-const accordionToggle = document.querySelectorAll(".history__transaction");
-const accordionHide = document.querySelectorAll(".history__hide");
+    for (let i = 0; i < themeInverse.length; ++i) {
+      themeInverse[i].classList.toggle("theme_color_project-inverse");
+    }
 
-for (let i = 0; i < accordionToggle.length; ++i) {
-  accordionToggle[i].addEventListener("click", function (evt) {
-    evt.preventDefault();
-    accordionHide[i].classList.toggle("history__hide");
-  });
+    if (body.classList.contains("theme", "theme_color_project-inverse"))
+      body.classList.remove("theme", "theme_color_project-inverse")
+    else
+      body.classList.add("theme", "theme_color_project-inverse");
+  };
+
+  const accordionToggle = document.querySelectorAll(".history__transaction");
+  const accordionHide = document.querySelectorAll(".history__hide");
+
+  for (let i = 0; i < accordionToggle.length; ++i) {
+    accordionToggle[i].onclick = (function (evt) {
+      evt.preventDefault();
+      accordionHide[i].classList.toggle("history__hide");
+    });
+  };
 }
