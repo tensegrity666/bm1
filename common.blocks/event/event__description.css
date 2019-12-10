@@ -1,6 +1,8 @@
 .event__description {
   display: flex;
-  width: 415px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 416px;
   height: 85px;
-  justify-content: center;
 }
