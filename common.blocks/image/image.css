@@ -1,29 +1,31 @@
+.theme_color_project-default > .image,
 .image {
-  width: 203px;
+  min-width: 203px;
   height: 160px;
+  background-color: var(--background-default);
   background-image: url(image-placeholder-primary.svg);
-  background-color: var(--background-accent);
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   transition: all 0.5s ease-in-out;
 
 }
 
 .theme_color_project-inverse > .image {
-  width: 203px;
+  min-width: 203px;
   height: 160px;
-  background-image: url(image-placeholder-inverse.svg);
   background-color: var(--background-default);
-  background-position: center;
+  background-image: url(image-placeholder-inverse.svg);
   background-repeat: no-repeat;
+  background-position: center;
   transition: all 0.5s ease-in-out;
 }
 
 .cover__preview > .image {
-  width: 100%;
-  height: auto;
+  min-width: 203px;
+  height: 160px;
+  background-color: var(--background-default);
   background-image: url(image-placeholder-inverse.svg);
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: top 55px left 126px;
   transition: all 0.5s ease-in-out;
 }

@@ -1,4 +1,8 @@
 .text_type_h2 {
-  margin-top: 45px;
-  margin-bottom: 21px;
+  margin: 45px 0 21px 9px;
+}
+
+.text_type_h2 + .text {
+  margin: 27px 0 0 9px;
+  margin-bottom: -9px;
 }

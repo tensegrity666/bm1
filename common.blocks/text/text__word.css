@@ -1,9 +1,12 @@
 .text__word {
-  display: inline-block;
-  background-color: var(--text-default);
   margin-bottom: 15px;
+  background-color: var(--text-default);
 }
 
 .warning__content .text__word {
   margin-bottom: var(--line-height-s);
+}
+
+.event__description .text__word {
+  margin-bottom: 17px;
 }

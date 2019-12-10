@@ -1,13 +1,3 @@
-.avatar {
-  display: block;
-  background-color: var(--text-default);
-}
-
-.avatar_size_m {
-  width: 60px;
-  height: 60px;
-}
-
 .brand-logo {
   --blue: rgb(93, 205, 249);
   --green: rgb(35, 179, 36);
@@ -58,6 +48,7 @@
   height: 24px;
 }
 
+
 .button {
   box-sizing: border-box;
   --button-size-w: 200px;
@@ -93,6 +84,16 @@
 
 .button_width_full {
   width: 100%;
+}
+
+.avatar {
+  display: block;
+  background-color: var(--text-default);
+}
+
+.avatar_size_m {
+  width: 60px;
+  height: 60px;
 }
 
 .card {
@@ -211,16 +212,17 @@
   align-items: center;
   box-sizing: border-box;
   border: 3px solid var(--border-color);
-  background-color: var(--background-default);
   width: 337px;
   height: 180px;
   margin-bottom: 32px;
 }
 
 .cover__text {
-  margin-bottom: 22px;
+  margin-bottom: 8px;
 }
 
+.e-accordion {
+}
 
 .e-accordion__more {
   box-sizing: border-box;
@@ -244,11 +246,6 @@
   flex-direction: column;
   width: 627px;
   min-height: 400px;
-  border: 3px solid var(--border-color);
-}
-
-.event.theme_color_project-inverse {
-  border: none;
 }
 
 .event__content {
@@ -261,40 +258,44 @@
 
 .event__description {
   display: flex;
-  width: 415px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 416px;
   height: 85px;
-  justify-content: center;
 }
 
 .event__footer {
-  width: 100%;
-  display: flex;
   box-sizing: border-box;
+  display: flex;
+  width: 100%;
   margin-bottom: 12px;
 }
 
 .event__footer .text__word {
+  margin-bottom: 0;
   background-color: inherit;
 }
 
 .event__preview {
   display: flex;
-  width: 129px;
   justify-content: space-between;
-  margin-top: 27px;
+  width: 129px;
   margin-bottom: 44px;
 }
 
+.event__speaker {}
 .event__title {
   display: flex;
   justify-content: center;
-  margin-bottom: var(--space-xl);
+  margin-bottom: 21px;
 }
 
+.event_brand_blue {}
 .footer {
   display: flex;
-  justify-content: center;
   margin: 0 auto;
+  justify-content: center;
   background-color: var(--background-default);
 }
 
@@ -316,6 +317,9 @@
   box-sizing: border-box;
 }
 
+.form__control {
+}
+
 .form__header {
   display: flex;
 }
@@ -335,7 +339,6 @@
 .payment__content .form__item:last-child {
   margin-bottom: 0;
 }
-
 .form__item_border_bottom {
   border-bottom: 3px solid var(--border-color);
 }
@@ -474,6 +477,7 @@
   align-items: center;
 }
 
+.form__label {}
 .form__label_width_default {
   width: 35%;
 }
@@ -506,12 +510,13 @@
 
 .grid__fraction_m-col_3 .product {
   width: 310px;
+  margin-bottom: 50px;
 }
 
 .grid__fraction_m-col_3 .image {
   width: 268px;
   background-color: var(--background-default);
-  background-image: url(/common.blocks/image/image-placeholder-inverse.svg);
+  background-image: url(img/image-placeholder-inverse.svg);
 }
 
 .grid__fraction_m-col_4 {
@@ -608,6 +613,7 @@
   justify-content: space-between;
 }
 
+.history__destination {}
 .history__details {
   display: flex;
   align-items: center;
@@ -629,6 +635,9 @@
   margin-bottom: 9px;
 }
 
+.history__label {}
+.history__pic {}
+.history__quantity {}
 .history__show {
   display: flex;
 }
@@ -660,12 +669,17 @@
   box-sizing: border-box;
 }
 
+.history__transaction_brand_blue {
+}
+
 .history__transaction_brand_green {
   position: relative;
 }
+
 .history__transaction_brand_purple {
   position: relative;
 }
+
 .history__transaction_brand_red {
   position: relative;
 }
@@ -697,33 +711,34 @@
   align-items: center;
 }
 
+.theme_color_project-default > .image,
 .image {
-  width: 203px;
+  min-width: 203px;
   height: 160px;
-  background-image: url(image-placeholder-primary.svg);
-  background-color: var(--background-accent);
-  background-position: center;
+  background-color: var(--background-default);
+  background-image: url(img/image-placeholder-primary.svg);
   background-repeat: no-repeat;
+  background-position: center;
   transition: all 0.5s ease-in-out;
-
 }
 
 .theme_color_project-inverse > .image {
-  width: 203px;
+  min-width: 203px;
   height: 160px;
-  background-image: url(image-placeholder-inverse.svg);
   background-color: var(--background-default);
-  background-position: center;
+  background-image: url(img/image-placeholder-inverse.svg);
   background-repeat: no-repeat;
+  background-position: center;
   transition: all 0.5s ease-in-out;
 }
 
 .cover__preview > .image {
-  width: 100%;
-  height: auto;
-  background-image: url(image-placeholder-inverse.svg);
-  background-position: center;
+  min-width: 203px;
+  height: 160px;
+  background-color: var(--background-default);
+  background-image: url(img/image-placeholder-inverse.svg);
   background-repeat: no-repeat;
+  background-position: top 55px left 126px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -827,20 +842,21 @@
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 
 .layout__container_align_center {
   align-items: center;
+  justify-content: flex-start;
 }
 
 .layout__container_indent-b_xxl {
   margin-bottom: var(--space-xxl);
 }
-
 .layout__container_indent-b_xxxxl {
   margin-bottom: var(--space-xxxxl);
 }
-
 .layout__container_size_m {
   width: 1280px;
 }
@@ -852,6 +868,7 @@
 .layout__container_space-v_xxxxl {
   padding: var(--space-xxxxl) 0;
 }
+
 .layout__container_space-v_xxxxxl {
   padding: var(--space-xxxxxl) 0;
 }
@@ -970,7 +987,6 @@
   height: 389px;
 }
 
-/* hack for pixelperfect */
 .payment .text__word {
   margin-bottom: 2px;
 }
@@ -1015,17 +1031,19 @@ justify-content: space-around;
 }
 
 .product {
-  display: flex;
-  flex-grow: 1;
   position: relative;
   box-sizing: border-box;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  flex-grow: 1;
   align-items: center;
+  justify-content: space-between;
   width: 245px;
   height: 300px;
 }
 
+
+.product__content {}
 .product__footer {
   height: 38px;
   position: absolute;
@@ -1045,7 +1063,7 @@ justify-content: space-around;
 
 .product__title {
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
   height: 115px;
   padding-top: 15px;
 }
@@ -1078,13 +1096,16 @@ justify-content: space-around;
 }
 
 .text__word {
-  display: inline-block;
-  background-color: var(--text-default);
   margin-bottom: 15px;
+  background-color: var(--text-default);
 }
 
 .warning__content .text__word {
   margin-bottom: var(--line-height-s);
+}
+
+.event__description .text__word {
+  margin-bottom: 17px;
 }
 
 .text_size_s .text__word_width_s {
@@ -1167,21 +1188,20 @@ justify-content: space-around;
 }
 
 .text_type_h1 {
-  margin-top: 18px;
-  margin-bottom: 24px;
+  margin: 26px 0 26px 9px;
 }
 
 .text_type_h1 + .text {
-  margin: 32px 0;
-}
-
-.text_type_h2 + .text {
-  margin: 27px 0;
+  margin: 32px 0 32px 9px;
 }
 
 .text_type_h2 {
-  margin-top: 45px;
-  margin-bottom: 21px;
+  margin: 45px 0 21px 9px;
+}
+
+.text_type_h2 + .text {
+  margin: 27px 0 0 9px;
+  margin-bottom: -9px;
 }
 
 .text_type_h3 {
@@ -1215,18 +1235,18 @@ justify-content: space-around;
   --background-default: rgb(0, 119, 255);
   --background-accent: rgb(255, 255, 255);
   --border-color: rgb(255, 255, 255);
-
   --text-default: rgb(255, 255, 255);
   --text-secondary: rgba(255, 255, 255, 0.6);
   --text-ghost: rgba(255, 255, 255, 0.3);
   --link-color: rgb(255, 255, 255);
+
+  transition: all 0.1s ease-in-out;
 }
 
 .theme_color_project-default {
   --background-default: rgb(255, 255, 255);
   --background-accent: rgb(255, 204, 0);
   --border-color: rgb(0, 0, 0);
-
   --text-default: rgb(0, 0, 0);
   --text-secondary: rgba(0, 0, 0, 0.6);
   --text-ghost: rgba(0, 0, 0, 0.3);
@@ -1239,7 +1259,6 @@ justify-content: space-around;
   --background-default: rgb(0, 0, 0);
   --background-accent: rgb(255, 255, 255);
   --border-color: rgb(255, 255, 255);
-
   --text-default: rgb(255, 255, 255);
   --text-secondary: rgba(255, 255, 255, 0.6);
   --text-ghost: rgba(255, 255, 255, 0.3);
@@ -1252,11 +1271,12 @@ justify-content: space-around;
   --background-default: rgb(255, 51, 51);
   --background-accent: rgb(255, 255, 255);
   --border-color: rgb(255, 51, 51);
-
   --text-default: rgb(255, 255, 255);
   --text-secondary: rgba(255, 255, 255, 0.6);
   --text-ghost: rgba(255, 255, 255, 0.3);
   --link-color: rgb(255, 255, 255);
+
+  transition: all 0.1s ease-in-out;
 }
 
 .theme_gap_small {
