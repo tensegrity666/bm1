@@ -1,6 +1,6 @@
 "Use strict";
 
-document.body.addEventListener("click", function (event) {
+document.addEventListener("click", function (event) {
   if (event.target.classList.contains("onoffswitch")) {
     event.target.classList.toggle("onoffswitch_checked");
 
