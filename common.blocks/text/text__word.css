@@ -1,6 +1,7 @@
 .text__word {
   margin-bottom: 15px;
   background-color: var(--text-default);
+  transition: all 0.4s ease-in-out;
 }
 
 .warning__content .text__word {
