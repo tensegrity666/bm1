@@ -1098,6 +1098,7 @@ justify-content: space-around;
 .text__word {
   margin-bottom: 15px;
   background-color: var(--text-default);
+  transition: all 0.5s ease-in-out;
 }
 
 .warning__content .text__word {
