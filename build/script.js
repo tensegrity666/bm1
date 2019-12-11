@@ -1,9 +1,9 @@
 "Use strict";
 
-document.body.onload = function () {
+const bodyOnload = document.body.onload = () => {
   const themeToggle = document.querySelector(".onoffswitch");
 
-  themeToggle.onclick = function () {
+  themeToggle.onclick = () => {
     const theme = document.querySelectorAll(".theme");
     const body = document.querySelector("body");
 
@@ -30,9 +30,8 @@ document.body.onload = function () {
   const accordionHide = document.querySelectorAll(".history__hide");
 
   for (let i = 0; i < accordionToggle.length; ++i) {
-    accordionToggle[i].onclick = (function (evt) {
-      evt.preventDefault();
-        accordionHide[i].classList.toggle("history__hide");
-    });
+    accordionToggle[i].onclick = () => {
+    accordionHide[i].classList.toggle("history__hide");
+    };
   };
-}
+};
