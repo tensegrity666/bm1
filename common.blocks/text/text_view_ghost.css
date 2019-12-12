@@ -1,3 +1,3 @@
-.text_view_ghost {
+.text_view_ghost .text__word {
   background-color: var(--text-ghost);
 }
