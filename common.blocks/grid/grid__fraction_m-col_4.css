@@ -1,3 +1,13 @@
 .grid__fraction_m-col_4 {
   max-width: calc((var(--screen-m) / var(--columns)) * 4);
+  transition: var(--transition);
+}
+
+@media (max-width: 1024px) {
+  .grid__fraction_m-col_4 {
+    max-width: 920px;
+    margin: 0 auto;
+    margin-bottom: var(--space-xxl);
+    transition: var(--transition);
+  }
 }

@@ -1,5 +1,15 @@
 .grid {
   display: flex;
-  width: 100%;
   justify-content: space-between;
+  width: 100%;
+  transition: var(--transition);
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    flex-direction: column;
+    justify-content: center;
+    width: 920px;
+    transition: var(--transition);
+  }
 }

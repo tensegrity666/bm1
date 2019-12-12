@@ -1,3 +1,11 @@
 .grid__fraction {
   --screen-m: 1280px;
+
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .grid__fraction:last-child {
+    margin-bottom: 0;
+  }
 }
