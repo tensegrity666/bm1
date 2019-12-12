@@ -1,7 +1,7 @@
 .text_type_h1 {
-  margin: 26px 0 26px 9px;
+  margin: 26px 0 26px 10px;
 }
 
 .text_type_h1 + .text {
-  margin: 32px 0 32px 9px;
+  margin: 31px 0 46px 10px;
 }

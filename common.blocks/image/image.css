@@ -3,29 +3,22 @@
   min-width: 203px;
   height: 160px;
   background-color: var(--background-default);
-  background-image: url(image-placeholder-primary.svg);
+  background-image: url(img/image-placeholder-primary.svg);
   background-repeat: no-repeat;
   background-position: center;
   transition: all 0.5s ease-in-out;
-
 }
 
 .theme_color_project-inverse > .image {
   min-width: 203px;
   height: 160px;
   background-color: var(--background-default);
-  background-image: url(image-placeholder-inverse.svg);
+  background-image: url(img/image-placeholder-inverse.svg);
   background-repeat: no-repeat;
   background-position: center;
   transition: all 0.5s ease-in-out;
 }
 
-.cover__preview > .image {
-  min-width: 203px;
-  height: 160px;
-  background-color: var(--background-default);
-  background-image: url(image-placeholder-inverse.svg);
-  background-repeat: no-repeat;
-  background-position: top 55px left 126px;
-  transition: all 0.5s ease-in-out;
+.grid__fraction_m-col_3 .image {
+  width: 268px;
 }

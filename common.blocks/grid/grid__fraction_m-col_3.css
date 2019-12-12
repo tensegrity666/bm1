@@ -1,14 +1,3 @@
 .grid__fraction_m-col_3 {
   max-width: calc((var(--screen-m) / var(--columns)) * 3);
 }
-
-.grid__fraction_m-col_3 .product {
-  width: 310px;
-  margin-bottom: 50px;
-}
-
-.grid__fraction_m-col_3 .image {
-  width: 268px;
-  background-color: var(--background-default);
-  background-image: url(/common.blocks/image/image-placeholder-inverse.svg);
-}
