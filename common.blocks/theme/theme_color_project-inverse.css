@@ -6,6 +6,4 @@
   --text-secondary: rgba(255, 255, 255, 0.6);
   --text-ghost: rgba(255, 255, 255, 0.3);
   --link-color: rgb(0, 112, 240);
-
-  transition: all 0.1s ease-in-out;
 }
