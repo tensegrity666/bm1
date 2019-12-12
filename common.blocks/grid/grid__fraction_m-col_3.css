@@ -7,7 +7,7 @@
   .grid__fraction_m-col_3 {
     max-width: 920px;
     margin: 0 auto;
-    margin-bottom: var(--space-xxl);
+    margin-bottom: 8px;
     transition: var(--transition);
   }
 }
