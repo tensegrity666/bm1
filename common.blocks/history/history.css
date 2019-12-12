@@ -1,8 +1,9 @@
 .history {
-  display: flex;
   position: relative;
-  width: 626px;
-  box-sizing: border-box;
-  flex-direction: column;
   z-index: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 626px;
+  min-height: 399px;
 }

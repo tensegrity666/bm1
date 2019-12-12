@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 30px;
+  height: 29px;
 }
 
 .history__time .text__word {
+  padding: 0;
+  margin: 0;
   background-color: inherit;
-  margin-bottom: 0;
 }

@@ -1,4 +1,7 @@
 .history__details {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  width: 285px;
+  height: 60px;
 }
