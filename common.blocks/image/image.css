@@ -1,9 +1,9 @@
-.theme_color_project-default > .image,
-.image {
+.image,
+.theme_color_project-default > .image {
   min-width: 203px;
   height: 160px;
   background-color: var(--background-default);
-  background-image: url(img/image-placeholder-primary.svg);
+  background-image: url(/common.blocks/image/image-placeholder-primary.svg);
   background-repeat: no-repeat;
   background-position: center;
   transition: all 0.5s ease-in-out;
@@ -13,9 +13,19 @@
   min-width: 203px;
   height: 160px;
   background-color: var(--background-default);
-  background-image: url(img/image-placeholder-inverse.svg);
+  background-image: url(/common.blocks/image/image-placeholder-inverse.svg);
   background-repeat: no-repeat;
   background-position: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.cover__preview > .image {
+  min-width: 203px;
+  height: 160px;
+  background-color: var(--background-default);
+  background-image: url(/common.blocks/image/image-placeholder-inverse.svg);
+  background-repeat: no-repeat;
+  background-position: top 55px left 126px;
   transition: all 0.5s ease-in-out;
 }
 
