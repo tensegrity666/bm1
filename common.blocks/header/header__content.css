@@ -1,8 +1,14 @@
 .header__content {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 1280px;
-  min-width: 920px;
   margin: var(--space-xxxl) 0;
+}
+
+@media (max-width: 1024px) {
+  .header__content {
+    width: 771px;
+  }
 }

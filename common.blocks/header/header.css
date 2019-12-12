@@ -1,7 +1,16 @@
 .header {
   display: flex;
-  margin: 0 auto;
+  flex-shrink: 0;
   justify-content: center;
+  width: 100%;
+  margin: 0 auto;
   background-color: var(--background-default);
-  transition: background-color 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    width: 920px;
+    transition: all 0.3s ease-in-out;
+  }
 }
