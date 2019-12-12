@@ -1,8 +1,15 @@
 .warning {
-  display: flex;
   box-sizing: border-box;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 409px;
   height: 389px;
+}
+
+@media (max-width: 1024px) {
+  .warning {
+    width: 800px;
+    height: 333px;
+  }
 }
