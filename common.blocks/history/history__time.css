@@ -3,10 +3,5 @@
   flex-direction: column;
   justify-content: space-between;
   height: 29px;
-}
-
-.history__time .text__word {
-  padding: 0;
-  margin: 0;
-  background-color: inherit;
+  padding-top: 3px;
 }
