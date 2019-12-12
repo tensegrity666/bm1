@@ -3,5 +3,11 @@
   display: flex;
   flex-direction: column;
   width: 627px;
-  min-height: 400px;
+  min-height: 399px;
+}
+
+@media (max-width: 1024px) {
+  .event {
+    width: 800px;
+  }
 }

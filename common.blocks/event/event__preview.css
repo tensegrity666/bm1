@@ -4,3 +4,13 @@
   width: 129px;
   margin-bottom: 44px;
 }
+
+.cover__preview>.image {
+  min-width: 203px;
+  height: 160px;
+  background-color: var(--background-default);
+  background-image: url(img/image-placeholder-inverse.svg);
+  background-repeat: no-repeat;
+  background-position: top 55px left 126px;
+  transition: all 0.5s ease-in-out;
+}

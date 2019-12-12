@@ -6,3 +6,9 @@
   width: 416px;
   height: 85px;
 }
+
+@media (max-width: 1024px) {
+  .event__description {
+    width: 100%;
+  }
+}
