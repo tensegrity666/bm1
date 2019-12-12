@@ -7,3 +7,9 @@
   width: 626px;
   min-height: 399px;
 }
+
+@media (max-width: 1024px) {
+  .history {
+    width: 800px;
+  }
+}
