@@ -14,3 +14,9 @@
   width: 310px;
   margin-bottom: 51px;
 }
+
+@media (max-width: 1024px) {
+  .product {
+    width: 800px;
+  }
+}
