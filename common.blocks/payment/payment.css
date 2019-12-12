@@ -5,9 +5,16 @@
   justify-content: space-between;
   width: 844px;
   height: 389px;
+  transition: all 0.1s ease-in-out;
 }
 
-/* hack for pixelperfect */
 .payment .text__word {
   margin-bottom: 2px;
+}
+
+@media (max-width: 1024px) {
+  .payment {
+    width: 800px;
+    transition: all 0.1s ease-in-out;
+  }
 }
