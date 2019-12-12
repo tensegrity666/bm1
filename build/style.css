@@ -519,6 +519,46 @@
   background-color: var(--background-default);
 }
 
+.header {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--background-default);
+  transition: all 0.1s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    width: 920px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.header__content {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  margin: var(--space-xxxl) 0;
+}
+
+@media (max-width: 1024px) {
+  .header__content {
+    width: 771px;
+  }
+}
+
+.header__logo {
+  display: block;
+  width: 179px;
+  height: 34px;
+  background-color: var(--text-default);
+  transition: background-color 1s ease-in-out;
+}
+
 .grid {
   display: flex;
   justify-content: space-between;
@@ -645,46 +685,6 @@
 .grid_row-gap_half {
   margin-top: calc(var(--gap) / 2);
   margin-bottom: calc(var(--gap) / 2);
-}
-
-.header {
-  display: flex;
-  flex-shrink: 0;
-  justify-content: center;
-  width: 100%;
-  margin: 0 auto;
-  background-color: var(--background-default);
-  transition: all 0.1s ease-in-out;
-}
-
-@media (max-width: 1024px) {
-  .header {
-    width: 920px;
-    transition: all 0.3s ease-in-out;
-  }
-}
-
-.header__content {
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 1280px;
-  margin: var(--space-xxxl) 0;
-}
-
-@media (max-width: 1024px) {
-  .header__content {
-    width: 771px;
-  }
-}
-
-.header__logo {
-  display: block;
-  width: 179px;
-  height: 34px;
-  background-color: var(--text-default);
-  transition: background-color 1s ease-in-out;
 }
 
 .history {
@@ -826,7 +826,7 @@
   min-width: 203px;
   height: 160px;
   background-color: var(--background-default);
-  background-image: url(/common.blocks/image/image-placeholder-primary.svg);
+  background-image: url("../common.blocks/image/image-placeholder-primary.svg");
   background-repeat: no-repeat;
   background-position: center;
   transition: all 0.5s ease-in-out;
@@ -836,7 +836,7 @@
   min-width: 203px;
   height: 160px;
   background-color: var(--background-default);
-  background-image: url(/common.blocks/image/image-placeholder-inverse.svg);
+  background-image: url("../common.blocks/image/image-placeholder-inverse.svg");
   background-repeat: no-repeat;
   background-position: center;
   transition: all 0.5s ease-in-out;
@@ -846,7 +846,7 @@
   min-width: 203px;
   height: 160px;
   background-color: var(--background-default);
-  background-image: url(/common.blocks/image/image-placeholder-inverse.svg);
+  background-image: url("../common.blocks/image/image-placeholder-inverse.svg");
   background-repeat: no-repeat;
   background-position: top 55px left 126px;
   transition: all 0.5s ease-in-out;
