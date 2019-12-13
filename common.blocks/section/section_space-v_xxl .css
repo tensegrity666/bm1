@@ -1,3 +1,9 @@
 .section_space-v_xxl {
   padding: 0 var(--space-xxl);
 }
+
+@media (max-width: 1024px) {
+  .section_space-v_xxl {
+    padding: 0;
+  }
+}
