@@ -1,6 +1,7 @@
 .theme_gap_small {
   /* No ideas about usage of this variable */
   --gap: 0 /* var(--space-xl) */;
+  --gap-mobile-card: 8px;
 }
 
 @media (max-width: 1024px) {
