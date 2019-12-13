@@ -16,7 +16,9 @@
 }
 
 @media (max-width: 1024px) {
-  .product {
+  .product,
+  .grid__fraction_m-col_3 .product {
     width: 800px;
+    margin-bottom: 0;
   }
 }
