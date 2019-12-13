@@ -10,7 +10,7 @@
 
 @media (max-width: 1024px) {
   .header {
-    width: 920px;
+    width: 800px;
     transition: all 0.3s ease-in-out;
   }
 }

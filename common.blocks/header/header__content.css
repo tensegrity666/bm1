@@ -9,6 +9,7 @@
 
 @media (max-width: 1024px) {
   .header__content {
-    width: 771px;
+    width: 100%;
+    margin: var(--space-xxxl) 15px;
   }
 }
