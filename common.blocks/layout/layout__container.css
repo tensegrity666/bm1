@@ -4,5 +4,10 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .layout__container {
+    width: 800px;
+  }
 }

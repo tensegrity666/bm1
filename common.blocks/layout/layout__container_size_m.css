@@ -1,9 +1,3 @@
 .layout__container_size_m {
-  width: 1280px;
-}
-
-@media (max-width: 1024px) {
-  .layout__container_size_m {
-    width: 920px;
-  }
+  max-width: 1280px;
 }
