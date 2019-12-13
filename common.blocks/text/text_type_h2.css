@@ -6,3 +6,13 @@
   margin: 26px 0 0 10px;
   margin-bottom: -8px;
 }
+
+@media (max-width: 1024px) {
+  .text_type_h2 {
+    margin-left: 0;
+  }
+
+  .text_type_h2 + .text {
+    margin-left: 0;
+  }
+}

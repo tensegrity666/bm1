@@ -5,3 +5,13 @@
 .text_type_h1 + .text {
   margin: 31px 0 46px 10px;
 }
+
+@media (max-width: 1024px) {
+  .text_type_h1 {
+    margin: 34px 0 0 0;
+  }
+
+  .text_type_h1 + .text {
+    margin: 30px 0 46px 0;
+  }
+}
