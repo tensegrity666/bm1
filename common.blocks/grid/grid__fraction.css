@@ -3,6 +3,16 @@
 }
 
 @media (max-width: 1024px) {
+  .grid__fraction {
+    margin: 0 auto;
+    margin-bottom: var(--gap-mobile-card);
+  }
+
+  .grid__fraction > .warning,
+  .grid__fraction > .history {
+    margin-bottom: 7px;
+  }
+
   .grid__fraction:last-child {
     margin-bottom: 0;
   }

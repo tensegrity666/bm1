@@ -9,7 +9,6 @@
   .grid {
     flex-direction: column;
     justify-content: center;
-    width: 920px;
     transition: var(--transition);
   }
 }

@@ -2,3 +2,9 @@
   margin-top: calc(var(--gap) / 2);
   margin-bottom: calc(var(--gap) / 2);
 }
+
+@media (max-width: 1024px) {
+  .text + .grid_row-gap_half {
+    margin-bottom: var(--space-xxxxl);
+  }
+}
