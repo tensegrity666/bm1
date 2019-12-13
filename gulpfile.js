@@ -31,7 +31,7 @@ function script() {
 
 function server() {
   browserSync.init({
-    server: "build/",
+    server: "./",
     notify: false,
     open: true,
     cors: true,
