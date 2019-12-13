@@ -6,3 +6,9 @@
   width: 409px;
   height: 472px;
 }
+
+@media (max-width: 1024px) {
+  .cover {
+    width: 800px;
+  }
+}

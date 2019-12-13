@@ -10,6 +10,7 @@
 
 @media (max-width: 1024px) {
   .footer__content {
-    width: 771px;
+    width: 100%;
+    margin: 6px 15px;
   }
 }

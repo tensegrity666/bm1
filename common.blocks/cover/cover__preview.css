@@ -7,3 +7,9 @@
   margin-bottom: 32px;
   border: 3px solid var(--border-color);
 }
+
+@media (max-width: 1024px) {
+  .cover__preview {
+    width: 100%;
+  }
+}
