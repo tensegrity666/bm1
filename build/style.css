@@ -848,18 +848,18 @@
 .theme_color_project-default > .image {
   min-width: 203px;
   height: 160px;
-  background-image: url(image-placeholder-primary.svg);
+  background-image: url(/static/images/image-placeholder-primary.svg);
   background-repeat: no-repeat;
   background-position: center;
   transition: all 0.5s ease-in-out;
 }
 
 .theme_color_project-inverse > .image {
-  background-image: url(image-placeholder-inverse.svg);
+  background-image: url(/static/images/image-placeholder-inverse.svg);
 }
 
 .cover__preview > .image {
-  background-image: url(image-placeholder-inverse.svg);
+  background-image: url(/static/images/image-placeholder-inverse.svg);
   background-position: top 55px left 126px;
 }
 
