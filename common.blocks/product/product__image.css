@@ -5,3 +5,9 @@
   width: 268px;
   height: 160px;
 }
+
+@media (max-width: 1024px) {
+  .product__image {
+    width: 100%;
+  }
+}
