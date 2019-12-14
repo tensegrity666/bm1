@@ -8,12 +8,16 @@
     margin-bottom: var(--gap-mobile-card);
   }
 
-  .grid__fraction > .warning,
-  .grid__fraction > .history {
+  .grid__fraction:nth-child(2n) {
     margin-bottom: 7px;
   }
 
   .grid__fraction:last-child {
     margin-bottom: 0;
+  }
+
+  .grid__fraction > .warning,
+  .grid__fraction > .history {
+    margin-bottom: 7px;
   }
 }
