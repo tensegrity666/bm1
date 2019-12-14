@@ -1,5 +1,7 @@
 .product__image {
+  box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 268px;
+  height: 160px;
 }
