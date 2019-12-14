@@ -1,14 +1,14 @@
 .grid {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  /* justify-content: space-between; */
   width: 100%;
   transition: var(--transition);
 }
 
 @media (max-width: 1024px) {
   .grid {
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
-    transition: var(--transition);
+    transition: var(--transition); */
   }
 }

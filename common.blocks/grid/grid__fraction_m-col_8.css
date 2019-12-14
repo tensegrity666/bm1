@@ -1,5 +1,5 @@
 .grid__fraction_m-col_8 {
-  max-width: calc((var(--screen-m) / var(--columns)) * 8);
+  grid-column: span 8;
   transition: var(--transition);
 }
 
