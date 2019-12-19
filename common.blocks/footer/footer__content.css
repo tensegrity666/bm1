@@ -4,13 +4,12 @@
   align-items: center;
   justify-content: space-between;
   width: 1280px;
-  height: 120px;
-  margin-top: 6px;
+  height: 102px;
 }
 
 @media (max-width: 1024px) {
   .footer__content {
     width: 100%;
-    margin: 6px 15px;
+    margin: 0 15px;
   }
 }

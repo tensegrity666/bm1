@@ -6,13 +6,11 @@
   flex-grow: 1;
   align-items: center;
   justify-content: space-between;
-  width: 245px;
-  height: 300px;
+  min-height: 300px;
 }
-
 
 @media (max-width: 1024px) {
   .product {
-  width: 800px;
+    width: 800px;
   }
 }
