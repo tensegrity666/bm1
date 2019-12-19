@@ -5,7 +5,7 @@
 
 @media (max-width: 1024px) {
   .grid__fraction_m-col_4 {
-    max-width: 800px;
+    grid-column: span 1;
     transition: var(--transition);
   }
 }
