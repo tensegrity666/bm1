@@ -8,7 +8,7 @@ const csso = require("gulp-csso");
 const uglify = require("gulp-uglify-es").default;
 
 function lint() {
-  return src("common.blocks/**/*.css")
+  return src("source/common.blocks/**/*.css")
     .pipe(stylelint({
       reporters: [{
         formatter: 'string',
@@ -18,7 +18,7 @@ function lint() {
 };
 
 function style() {
-  return src("common.blocks/**/*.css")
+  return src("source/common.blocks/**/*.css")
     .pipe(gulpConcat("style.css"))
     .pipe(csso())
     .pipe(dest("build/"))
