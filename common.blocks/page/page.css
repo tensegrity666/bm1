@@ -1,8 +1,6 @@
 .page {
   --breakpoint: 1024px;
 
-  position: relative;
   box-sizing: border-box;
   width: 100%;
-  margin: 0 auto;
 }
