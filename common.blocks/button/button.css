@@ -1,7 +1,8 @@
 .button {
-  box-sizing: border-box;
   --button-size-w: 200px;
 
+  box-sizing: border-box;
+  cursor: pointer;
   background-color: var(--background-accent);
   transition: all 0.5s ease-in-out;
 }
