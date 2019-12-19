@@ -7,7 +7,6 @@ window.onload = function() {
       event.target.classList.toggle("onoffswitch_checked");
 
       const theme = document.querySelectorAll(".theme");
-
       for (let i = 0; i < theme.length; ++i) {
         if (theme[i].classList.contains("theme_color_project-inverse")) {
           theme[i].classList.toggle("theme_color_project-inverse")
@@ -26,13 +25,10 @@ window.onload = function() {
       };
     };
 
-
     let accordionEvent = event.target.closest(".history__transaction");
     if (accordionEvent) {
-      let accordionHide = accordionEvent.children;
-        accordionHide[1].classList.toggle("history__hide"); //modificator history__hide always has index 1
+    let accordionHide = accordionEvent.children;
+    accordionHide[1].classList.toggle("history__hide"); //modificator history__hide always has index 1
     };
-
   });
 };
-
