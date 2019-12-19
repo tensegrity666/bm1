@@ -1,17 +1,7 @@
 .text_type_h1 {
-  margin: 26px 0 26px 0;
+  margin: 26px 0 32px;
 }
 
-/* .text_type_h1 + .text {
-  margin: 31px 0 46px 10px;
+.text_type_h1 .text__word {
+  margin: 0;
 }
-
-@media (max-width: 1024px) {
-  .text_type_h1 {
-    margin: 34px 0 0 0;
-  }
-
-  .text_type_h1 + .text {
-    margin: 30px 0 46px 0;
-  }
-} */
