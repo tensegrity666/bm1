@@ -1,9 +1,7 @@
-  const accordionToggle = document.querySelectorAll(".history__transaction");
-  const accordionHide = document.querySelectorAll(".history__hide");
-
-  for (let i = 0; i < accordionToggle.length; ++i) {
-    accordionToggle[i].addEventListener("click", function (evt) {
-      evt.preventDefault();
-      accordionHide[i].classList.toggle("history__hide");
-    });
-  }
+document.body.addEventListener("click", function (event) {
+  let accordionEvent = event.target.closest(".history__transaction");
+  if (accordionEvent) {
+    let accordionHide = accordionEvent.children;
+    accordionHide[1].classList.toggle("history__hide"); //modificator history__hide always has index 1
+  };
+});

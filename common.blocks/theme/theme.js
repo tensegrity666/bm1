@@ -1,18 +1,23 @@
-  const themeToggle = document.querySelector(".onoffswitch");
-  const themeInverse = document.querySelectorAll(".theme");
-  const page = document.querySelector("html");
+document.body.addEventListener("click", function (event) {
+  if (event.target.classList.contains("onoffswitch")) {
+    event.target.classList.toggle("onoffswitch_checked");
 
-  themeToggle.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    themeToggle.classList.toggle("onoffswitch_checked");
+    const theme = document.querySelectorAll(".theme");
+    for (let i = 0; i < theme.length; ++i) {
+      if (theme[i].classList.contains("theme_color_project-inverse")) {
+        theme[i].classList.toggle("theme_color_project-inverse")
+        theme[i].classList.add("theme_color_project-default")
+      } else if (theme[i].classList.contains("theme_color_project-brand")) {
+        theme[i].classList.remove("theme_color_project-inverse")
+        theme[i].classList.remove("theme_color_project-default")
+      } else {
+        theme[i].classList.toggle("theme_color_project-inverse");
+      }
+    };
 
-    for (let i = 0; i < themeInverse.length; ++i) {
-      themeInverse[i].classList.toggle("theme_color_project-inverse");
-    }
-
-    if (page.hasAttribute("style"))
-      page.removeAttribute("style");
-    else
-      page.setAttribute("style", "background-color: #000; transition: background-color 0.1s ease-in-out");
-  });
-  
+    if (!this.classList.contains("theme")) {
+      this.classList.add("theme");
+      this.classList.add("theme_color_project-inverse");
+    };
+  };
+});
