@@ -1,8 +1,8 @@
 .text_type_h1 {
-  margin: 26px 0 26px 10px;
+  margin: 26px 0 26px 0;
 }
 
-.text_type_h1 + .text {
+/* .text_type_h1 + .text {
   margin: 31px 0 46px 10px;
 }
 
@@ -14,4 +14,4 @@
   .text_type_h1 + .text {
     margin: 30px 0 46px 0;
   }
-}
+} */
