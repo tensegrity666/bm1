@@ -1,11 +1,13 @@
 .product__footer {
-  height: 38px;
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 38px;
 }
 
 .product__footer .text__word {
-  margin-bottom: var(--space-s);
+  margin-top: 10px;
+  margin-bottom: 5px;
 }

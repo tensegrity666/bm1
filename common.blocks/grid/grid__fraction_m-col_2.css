@@ -1,11 +1,11 @@
 .grid__fraction_m-col_2 {
-  max-width: calc((var(--screen-m) / var(--columns)) * 2);
+  grid-column: span 2;
   transition: var(--transition);
 }
 
 @media (max-width: 1024px) {
   .grid__fraction_m-col_2 {
-    max-width: 800px;
+    grid-column: span 1;
     transition: var(--transition);
   }
 }

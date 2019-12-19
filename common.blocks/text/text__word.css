@@ -1,15 +1,24 @@
 .text__word {
-  margin-bottom: 15px;
+  margin-top: 15px;
   background-color: var(--text-default);
   transition: all 0.4s ease-in-out;
 }
 
 .warning__content .text__word {
+  margin-top: 0;
   margin-bottom: var(--line-height-s);
 }
 
 .event__description .text__word {
+  margin-top: 0;
   margin-bottom: 17px;
+}
+
+.history .text__word,
+.event__title .text__word,
+.event__footer .text__word,
+.payment .text__word {
+  margin-top: 0;
 }
 
 .history__time .text__word {

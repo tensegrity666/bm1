@@ -2,12 +2,10 @@
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   width: 100%;
+  margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
-  .layout__container {
-    width: 800px;
-  }
+.layout__container.theme.section_space-v_xxxxl {
+  margin-top: 7px;
 }

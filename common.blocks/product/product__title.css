@@ -1,7 +1,10 @@
 .product__title {
-  box-sizing: border-box;
   display: flex;
   justify-content: flex-start;
-  height: 130px;
-  padding-top: 17px;
+  height: 118px;
+  margin-bottom: 12px;
+}
+
+.product__title + .grid {
+  margin-bottom: var(--space-xxxxl);
 }

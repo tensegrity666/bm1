@@ -1,5 +1,6 @@
 .section_space-v_xxxxl {
-  padding: 0 var(--space-xxxxl);
+  padding-right: var(--space-xxxxl);
+  padding-left: var(--space-xxxxl);
 }
 
 @media (max-width: 1024px) {

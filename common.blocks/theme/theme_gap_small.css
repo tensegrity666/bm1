@@ -1,11 +1,9 @@
 .theme_gap_small {
-  /* No ideas about usage of this variable */
-  --gap: 0 /* var(--space-xl) */;
-  --gap-mobile-card: 8px;
+  --gap: var(--space-xl);
 }
 
 @media (max-width: 1024px) {
   .theme_gap_small {
-    --gap: 0 /* var(--space-s) */;
+    --gap: var(--space-s);
   }
 }
