@@ -1,6 +1,6 @@
 .history__description {
-  height: 39px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 39px;
 }

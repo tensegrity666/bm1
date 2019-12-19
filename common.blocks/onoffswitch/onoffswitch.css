@@ -1,11 +1,12 @@
-.onoffswitch, .onoffswitch_checked {
+.onoffswitch,
+.onoffswitch_checked {
   position: relative;
-  display: block;
   box-sizing: border-box;
+  display: block;
   width: 97px;
   height: 32px;
-  border: 2px solid var(--border-color);
   background-color: var(--background-default);
+  border: 2px solid var(--border-color);
 }
 
 .onoffswitch:hover {

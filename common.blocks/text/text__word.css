@@ -14,14 +14,14 @@
   margin-bottom: 17px;
 }
 
+.history__time .text__word {
+  padding: 0;
+  margin: 0;
+}
+
 .history .text__word,
 .event__title .text__word,
 .event__footer .text__word,
 .payment .text__word {
   margin-top: 0;
-}
-
-.history__time .text__word {
-  padding: 0;
-  margin: 0;
 }
