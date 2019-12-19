@@ -2,11 +2,3 @@
   display: grid;
   transition: var(--transition);
 }
-
-@media (max-width: 1024px) {
-  .grid {
-    /* flex-direction: column;
-    justify-content: center;
-    transition: var(--transition); */
-  }
-}

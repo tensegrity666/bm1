@@ -5,3 +5,7 @@
   width: 100%;
   margin: 0 auto;
 }
+
+.layout__container.theme.section_space-v_xxxxl {
+  margin-top: 7px;
+}
