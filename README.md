@@ -1,8 +1,7 @@
 #### https://tensegrity666.github.io/bm1/
-Адаптивный сайт с интерактивными элементами и переключаемой темной темой.
+Адаптивный сайт с интерактивными элементами (меню-аккордеон, темная тема).
 * Страница карточки товара доступна по ссылке https://tensegrity666.github.io/bm1/product.html:
 
-![https://tensegrity666.github.io/bm1/product.html](https://github.com/yndx-shri-reviewer/shri-2020-task-1/blob/master/assets/screenshots/product.png)
 
 ## Комментарии по использованным инструментам стилизации.
 * Для получения HTML-разметки из JSON-шаблонов был использован [XJST Online demo](https://bem.github.io/bem-xjst/) (лень было ради двух страниц разбираться с установкой, поэтому онлайн-демо)
