@@ -1,6 +1,6 @@
 #### https://tensegrity666.github.io/bm1/
 Адаптивный сайт с интерактивными элементами и переключаемой темной темой.
-Страница карточки товара доступна по клику на элемент карточки товара:
+* Страница карточки товара доступна по клику на элемент карточки товара:
 
 ![Product card](https://github.com/yndx-shri-reviewer/shri-2020-task-1/blob/master/assets/screenshots/product.png)
 
